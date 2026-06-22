@@ -4,13 +4,28 @@
     "title": "O Perdão que Liberta",
     "summary": "Reflexão vivencial sobre o peso de guardar mágoa e a leveza do perdão, usando a metáfora de carregar pedras em uma mochila.",
     "category": "carater-cristao",
-    "themes": ["perdão", "libertação", "mágoa", "reconciliação"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20"],
+    "themes": [
+      "perdão",
+      "libertação",
+      "mágoa",
+      "reconciliação"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 20,
     "difficulty": "medio",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Mateus 18:21-22; Efésios 4:32",
     "mainTruth": "Perdoar não é ignorar o que aconteceu — é escolher não carregar mais esse peso.",
@@ -32,11 +47,20 @@
     ],
     "prayerSuggestion": "Pai, assim como você nos perdoou, ajuda-nos a perdoar. Tira de nós o peso das mágoas que carregamos. Amém.",
     "memoryVerse": "Efésios 4:32 — 'Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, assim como Deus os perdoou em Cristo.'",
-    "safetyNotes": ["Nunca force as crianças a revelar quem magoou ou o que aconteceu."],
+    "safetyNotes": [
+      "Nunca force as crianças a revelar quem magoou ou o que aconteceu."
+    ],
     "youngerAdaptation": "Use uma mochila real com um livro dentro para sentir o peso fisicamente. Tire o livro ao perdoar.",
     "olderAdaptation": "Discuta: tem situações onde perdoar parece impossível? Como Deus ajuda nessas horas?",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["perdão", "mágoa", "leveza", "libertação", "reconciliação", "Efésios"],
+    "tags": [
+      "perdão",
+      "mágoa",
+      "leveza",
+      "libertação",
+      "reconciliação",
+      "Efésios"
+    ],
     "status": "aprovado"
   },
   {
@@ -44,18 +68,35 @@
     "title": "A Verdade Sempre Vale",
     "summary": "Jogo de dilemas onde as crianças escolhem entre mentira conveniente e verdade difícil, explorando honestidade como pilar do caráter cristão.",
     "category": "carater-cristao",
-    "themes": ["honestidade", "verdade", "integridade", "caráter"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "honestidade",
+      "verdade",
+      "integridade",
+      "caráter"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 25,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Provérbios 12:17; João 8:32",
     "mainTruth": "A verdade pode ser difícil de falar, mas sempre liberta.",
     "objective": "Ajudar as crianças a reconhecer situações onde a honestidade é testada e praticar a escolha pela verdade.",
-    "materials": ["cartões de dilema (escritos à mão ou impressos)"],
+    "materials": [
+      "cartões de dilema (escritos à mão ou impressos)"
+    ],
     "preparation": [
       "Escreva situações: 'Você quebrou o vaso da sala. Sua mãe pergunta se foi você. O que faz?'",
       "'Você copiou a resposta do colega na prova. O professor não viu. Você conta?'",
@@ -76,11 +117,21 @@
     ],
     "prayerSuggestion": "Senhor, ajuda-nos a amar a verdade mesmo quando é difícil. Que nossa palavra seja confiável. Amém.",
     "memoryVerse": "João 8:32 — 'Então vocês conhecerão a verdade, e a verdade os libertará.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Mantenha as cartelas organizadas para evitar disputa entre crianças.",
+      "Certifique-se de que o espaço permite discussão em grupo sem aglomeração."
+    ],
     "youngerAdaptation": "Use situações mais simples: 'Você pegou um biscoito sem pedir. Sua mãe pergunta. O que faz?'",
     "olderAdaptation": "Adicione dilemas mais complexos: redes sociais, pressão de amigos, honestidade digital.",
     "noMaterialsAlternative": "Leia os dilemas verbalmente sem cartões impressos.",
-    "tags": ["honestidade", "verdade", "dilema", "integridade", "caráter", "João 8"],
+    "tags": [
+      "honestidade",
+      "verdade",
+      "dilema",
+      "integridade",
+      "caráter",
+      "João 8"
+    ],
     "status": "aprovado"
   },
   {
@@ -88,19 +139,41 @@
     "title": "Mãos Abertas — Praticando a Generosidade",
     "summary": "Dinâmica de reflexão e ação onde as crianças identificam o que podem dar de si mesmas — não só dinheiro — e planejam um ato concreto de generosidade.",
     "category": "carater-cristao",
-    "themes": ["generosidade", "dar", "abundância", "serviço"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20"],
+    "themes": [
+      "generosidade",
+      "dar",
+      "abundância",
+      "serviço"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 25,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "2 Coríntios 9:7; Lucas 21:1-4",
     "mainTruth": "Deus ama quem dá com alegria — e todos temos algo para dar.",
     "objective": "Ampliar a compreensão de generosidade para além do dinheiro e motivar um ato concreto.",
-    "materials": ["folhas de papel", "canetas"],
-    "preparation": [],
+    "materials": [
+      "folhas de papel",
+      "canetas"
+    ],
+    "preparation": [
+      "Escreva os dilemas em folhas ou imprima com antecedência.",
+      "Separe uma folha e caneta por criança."
+    ],
     "steps": [
       "Pergunte: 'O que você tem para dar a alguém esta semana?' Espere respostas.",
       "Liste na lousa diferentes formas de generosidade: tempo, atenção, ajuda, palavras, habilidades.",
@@ -116,11 +189,21 @@
     ],
     "prayerSuggestion": "Pai, abre nossas mãos e nossos corações. Que possamos dar com alegria, sabendo que em você temos tudo. Amém.",
     "memoryVerse": "2 Coríntios 9:7 — 'Cada um dê conforme determinou em seu coração, não com pesar ou por obrigação, pois Deus ama quem dá com alegria.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Distribua folhas e canetas com antecedência para não interromper o fluxo.",
+      "Recolha as canetas ao final para evitar marcas em mobiliário."
+    ],
     "youngerAdaptation": "Foque em uma coisa simples: dar um abraço, ajudar em casa, guardar os brinquedos.",
     "olderAdaptation": "Proponha um projeto coletivo de generosidade: uma ação do grupo para a comunidade.",
     "noMaterialsAlternative": "Cada criança faz o compromisso verbalmente em roda, sem escrever.",
-    "tags": ["generosidade", "dar", "viúva", "alegria", "serviço", "2 Coríntios"],
+    "tags": [
+      "generosidade",
+      "dar",
+      "viúva",
+      "alegria",
+      "serviço",
+      "2 Coríntios"
+    ],
     "status": "aprovado"
   },
   {
@@ -128,13 +211,27 @@
     "title": "A Coragem de Dizer Não",
     "summary": "Situações do cotidiano infantil onde as crianças praticam dizer não com gentileza e firmeza, descobrindo que limites saudáveis são parte do caráter cristão.",
     "category": "carater-cristao",
-    "themes": ["coragem", "limites", "pressão de grupo", "caráter"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "coragem",
+      "limites",
+      "pressão de grupo",
+      "caráter"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "teatro",
     "durationMinutes": 30,
     "difficulty": "medio",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Daniel 1:8; Josué 24:15",
     "mainTruth": "Escolher o certo quando todo mundo escolhe o errado exige coragem — e vale a pena.",
@@ -156,11 +253,20 @@
     ],
     "prayerSuggestion": "Deus, assim como Daniel, queremos ter coragem de fazer o certo. Dá-nos sabedoria para dizer não com gentileza e firmeza. Amém.",
     "memoryVerse": "Josué 24:15 — 'Quanto a mim e à minha família, serviremos ao Senhor.'",
-    "safetyNotes": ["Monitore para que a pressão no roleplay não seja agressiva ou pessoal."],
+    "safetyNotes": [
+      "Monitore para que a pressão no roleplay não seja agressiva ou pessoal."
+    ],
     "youngerAdaptation": "Use situações simples: 'Seu colega quer que você minta para o professor. O que você faz?'",
     "olderAdaptation": "Inclua situações envolvendo redes sociais, conteúdo inadequado e pressão do grupo.",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["coragem", "pressão", "limites", "Daniel", "caráter", "dizer não"],
+    "tags": [
+      "coragem",
+      "pressão",
+      "limites",
+      "Daniel",
+      "caráter",
+      "dizer não"
+    ],
     "status": "aprovado"
   },
   {
@@ -168,18 +274,35 @@
     "title": "O Menor é o Maior — Humildade em Ação",
     "summary": "Atividade baseada no ensinamento de Jesus sobre servir, onde as crianças identificam atos de serviço humilde e experimentam servir umas às outras.",
     "category": "carater-cristao",
-    "themes": ["humildade", "serviço", "liderança serva", "amor prático"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "humildade",
+      "serviço",
+      "liderança serva",
+      "amor prático"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 30,
     "difficulty": "facil",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Marcos 10:42-45; João 13:14",
     "mainTruth": "Jesus veio para servir, não para ser servido — e nos chama a fazer o mesmo.",
     "objective": "Levar as crianças a experimentar a alegria de servir e associá-la ao exemplo de Jesus.",
-    "materials": ["papéis com 'tarefas de serviço' escritas"],
+    "materials": [
+      "papéis com 'tarefas de serviço' escritas"
+    ],
     "preparation": [
       "Escreva tarefas simples: 'Arrume as cadeiras', 'Ajude alguém a achar algo que caiu', 'Dê um elogio sincero a alguém', 'Ofereça ajuda sem ser pedido'."
     ],
@@ -198,11 +321,21 @@
     ],
     "prayerSuggestion": "Jesus, obrigado pelo exemplo de servir. Ajuda-nos a ser grandes do jeito que você define — servindo com amor. Amém.",
     "memoryVerse": "Marcos 10:45 — 'Pois nem mesmo o Filho do homem veio para ser servido, mas para servir.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Dobre ou embaralhe os papéis antes de distribuir para garantir aleatoriedade.",
+      "Certifique-se de que nenhuma tarefa seja fisicamente arriscada para a faixa etária."
+    ],
     "youngerAdaptation": "O professor define as tarefas junto com as crianças. Servir pode ser guardar o lápis do amigo.",
     "olderAdaptation": "Propor um projeto de serviço real na igreja ou comunidade.",
     "noMaterialsAlternative": "Cada criança pensa e fala um ato de serviço que vai realizar naquela semana.",
-    "tags": ["humildade", "serviço", "liderança", "Jesus servo", "Marcos 10", "amor prático"],
+    "tags": [
+      "humildade",
+      "serviço",
+      "liderança",
+      "Jesus servo",
+      "Marcos 10",
+      "amor prático"
+    ],
     "status": "aprovado"
   }
 ]

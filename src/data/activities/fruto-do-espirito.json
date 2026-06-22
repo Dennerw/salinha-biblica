@@ -4,19 +4,39 @@
     "title": "A Árvore do Fruto do Espírito",
     "summary": "Construção coletiva de uma árvore onde cada criança adiciona frutos com as virtudes do Espírito, aprendendo que o fruto vem de estar ligado a Jesus, a videira.",
     "category": "fruto-do-espirito",
-    "themes": ["fruto do Espírito", "Espírito Santo", "caráter", "videira"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "fruto do Espírito",
+      "Espírito Santo",
+      "caráter",
+      "videira"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "arte",
     "durationMinutes": 35,
     "difficulty": "facil",
-    "environment": ["sala"],
+    "environment": [
+      "sala"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Gálatas 5:22-23; João 15:5",
     "mainTruth": "O fruto do Espírito não é algo que fabricamos — cresce quando estamos ligados a Jesus.",
     "objective": "Levar as crianças a conhecer os nove frutos do Espírito e entender que vêm do relacionamento com Jesus.",
-    "materials": ["papel kraft ou cartolina grande", "post-its coloridos ou círculos de papel", "canetinhas", "fita adesiva"],
-    "preparation": ["Cole o papel kraft na parede e desenhe o tronco e galhos de uma árvore."],
+    "materials": [
+      "papel kraft ou cartolina grande",
+      "post-its coloridos ou círculos de papel",
+      "canetinhas",
+      "fita adesiva"
+    ],
+    "preparation": [
+      "Cole o papel kraft na parede e desenhe o tronco e galhos de uma árvore."
+    ],
     "steps": [
       "Mostre a árvore sem frutos: 'O que falta nessa árvore?'",
       "Leia Gálatas 5:22-23. Explique cada fruto brevemente com exemplo do dia a dia.",
@@ -32,11 +52,22 @@
     ],
     "prayerSuggestion": "Espírito Santo, queremos estar ligados a Jesus como galhos na videira. Faz crescer em nós o teu fruto. Amém.",
     "memoryVerse": "Gálatas 5:22-23 — 'O fruto do Espírito é: amor, alegria, paz, paciência, amabilidade, bondade, fidelidade, mansidão e domínio próprio.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Fixe a cartolina em superfície estável ou na parede antes de iniciar.",
+      "Canetinhas: prefira laváveis para crianças menores.",
+      "Fita adesiva: evite colocar diretamente em paredes pintadas sem proteção."
+    ],
     "youngerAdaptation": "Foque em apenas 3 frutos: amor, alegria e paz. Use figuras para colorir.",
     "olderAdaptation": "Peça que analisem qual fruto é mais difícil de ver no mundo atual e por quê.",
     "noMaterialsAlternative": "Faça a árvore no quadro ou lousa. Cada criança fala seu fruto e uma situação. Não precisa colar.",
-    "tags": ["fruto do Espírito", "Gálatas 5", "Espírito Santo", "videira", "caráter", "árvore"],
+    "tags": [
+      "fruto do Espírito",
+      "Gálatas 5",
+      "Espírito Santo",
+      "videira",
+      "caráter",
+      "árvore"
+    ],
     "status": "aprovado"
   },
   {
@@ -44,13 +75,29 @@
     "title": "Paz Interior — Respirando com Deus",
     "summary": "Exercício guiado de respiração e meditação bíblica que ensina as crianças a buscar a paz de Deus em momentos de ansiedade ou agitação.",
     "category": "fruto-do-espirito",
-    "themes": ["paz", "ansiedade", "quietude", "Espírito Santo"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20"],
+    "themes": [
+      "paz",
+      "ansiedade",
+      "quietude",
+      "Espírito Santo"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20"
+    ],
     "type": "oracao",
     "durationMinutes": 10,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Filipenses 4:6-7; João 14:27",
     "mainTruth": "A paz de Deus é diferente da paz do mundo — ela guarda nosso coração mesmo em meio à tempestade.",
@@ -76,7 +123,14 @@
     "youngerAdaptation": "Use apenas a respiração visual: braços que sobem (inspira) e descem (expira).",
     "olderAdaptation": "Ensine que essa é uma ferramenta real para ansiedade — respaldada por pesquisa e pela Bíblia.",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["paz", "respiração", "ansiedade", "Filipenses 4", "quietude", "Espírito Santo"],
+    "tags": [
+      "paz",
+      "respiração",
+      "ansiedade",
+      "Filipenses 4",
+      "quietude",
+      "Espírito Santo"
+    ],
     "status": "aprovado"
   },
   {
@@ -84,19 +138,39 @@
     "title": "O Jogo da Paciência",
     "summary": "Jogo de tabuleiro improvisado onde errar faz parte das regras, e as crianças praticam reagir com paciência às frustrações enquanto conversam sobre o que isso significa.",
     "category": "fruto-do-espirito",
-    "themes": ["paciência", "frustração", "perseverança", "Espírito Santo"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "paciência",
+      "frustração",
+      "perseverança",
+      "Espírito Santo"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 25,
     "difficulty": "medio",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Romanos 5:3-4; Tiago 1:3-4",
     "mainTruth": "A paciência não é passividade — é confiança ativa em Deus enquanto esperamos.",
     "objective": "Criar experiência prática de frustração controlada para desenvolver paciência reflexiva.",
-    "materials": ["dados", "folhas quadriculadas (tabuleiro improvisado)", "peças ou botões como marcadores"],
-    "preparation": ["Desenhe um tabuleiro simples com 20 casas. Em 5 casas, escreva 'Volte 3'."],
+    "materials": [
+      "dados",
+      "folhas quadriculadas (tabuleiro improvisado)",
+      "peças ou botões como marcadores"
+    ],
+    "preparation": [
+      "Desenhe um tabuleiro simples com 20 casas. Em 5 casas, escreva 'Volte 3'."
+    ],
     "steps": [
       "Explique as regras: jogo de tabuleiro normal, mas 5 casas mandam voltar.",
       "Quando alguém cair nessas casas, toda a turma diz junto: 'Paciência — Deus tem um plano!'",
@@ -112,11 +186,20 @@
     ],
     "prayerSuggestion": "Senhor, quando tivermos que 'voltar casas' na vida, ajuda-nos a confiar que você ainda tem um plano. Amém.",
     "memoryVerse": "Romanos 5:3-4 — 'A tribulação produz perseverança; a perseverança, um caráter aprovado; e o caráter aprovado, esperança.'",
-    "safetyNotes": ["Monitore reações de frustração intensa — use como oportunidade pedagógica."],
+    "safetyNotes": [
+      "Monitore reações de frustração intensa — use como oportunidade pedagógica."
+    ],
     "youngerAdaptation": "Reduza o tabuleiro para 10 casas e apenas 2 penalidades.",
     "olderAdaptation": "Peça que comparem o jogo com uma situação real de espera na vida deles.",
     "noMaterialsAlternative": "Jogue 'pedra, papel, tesoura' em torneio — quem perder pratica reagir bem.",
-    "tags": ["paciência", "frustração", "jogo", "Romanos 5", "Espírito Santo", "perseverança"],
+    "tags": [
+      "paciência",
+      "frustração",
+      "jogo",
+      "Romanos 5",
+      "Espírito Santo",
+      "perseverança"
+    ],
     "status": "aprovado"
   },
   {
@@ -124,13 +207,29 @@
     "title": "Alegria Contagiante",
     "summary": "Sequência de atividades físicas e reflexivas que exploram a diferença entre felicidade (situacional) e alegria (fundada em Deus), terminando em celebração.",
     "category": "fruto-do-espirito",
-    "themes": ["alegria", "celebração", "diferença entre felicidade e alegria", "Espírito Santo"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["6-10", "11-20", "21+"],
+    "themes": [
+      "alegria",
+      "celebração",
+      "diferença entre felicidade e alegria",
+      "Espírito Santo"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20",
+      "21+"
+    ],
     "type": "jogo",
     "durationMinutes": 20,
     "difficulty": "facil",
-    "environment": ["sala", "salao", "qualquer"],
+    "environment": [
+      "sala",
+      "salao",
+      "qualquer"
+    ],
     "energyLevel": "agitado",
     "bibleReference": "Filipenses 4:4; Neemias 8:10",
     "mainTruth": "A alegria cristã não depende das circunstâncias — é uma força que vem de Deus.",
@@ -156,7 +255,14 @@
     "youngerAdaptation": "Substitua as afirmações por expressões faciais: mostre feliz, triste, e a alegria de Jesus.",
     "olderAdaptation": "Discuta: é possível ser cristão e estar triste? Como isso se encaixa com alegria?",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["alegria", "felicidade", "celebração", "Filipenses 4", "Espírito Santo", "força"],
+    "tags": [
+      "alegria",
+      "felicidade",
+      "celebração",
+      "Filipenses 4",
+      "Espírito Santo",
+      "força"
+    ],
     "status": "aprovado"
   },
   {
@@ -164,19 +270,40 @@
     "title": "Palavras que Constroem",
     "summary": "Atividade onde as crianças experimentam o impacto de palavras encorajadoras e destrutivas, desenvolvendo bondade e amabilidade no vocabulário cotidiano.",
     "category": "fruto-do-espirito",
-    "themes": ["bondade", "amabilidade", "palavras", "encorajamento"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "bondade",
+      "amabilidade",
+      "palavras",
+      "encorajamento"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 25,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Provérbios 15:4; Efésios 4:29",
     "mainTruth": "Palavras têm poder de construir ou destruir — o Espírito nos ensina a construir.",
     "objective": "Sensibilizar as crianças para o impacto das palavras e desenvolver vocabulário de bondade.",
-    "materials": ["duas folhas por criança", "lápis"],
-    "preparation": [],
+    "materials": [
+      "duas folhas por criança",
+      "lápis"
+    ],
+    "preparation": [
+      "Separe duas folhas por criança antes da aula.",
+      "Distribua os lápis com antecedência para agilizar o início."
+    ],
     "steps": [
       "Distribua duas folhas amassadas levemente.",
       "Diga: 'A primeira folha recebeu palavras duras. Tente desamassar perfeitamente.' (impossível)",
@@ -192,11 +319,20 @@
     ],
     "prayerSuggestion": "Senhor, guarda as palavras que saem da nossa boca. Que sejam sempre para construir e não para destruir. Amém.",
     "memoryVerse": "Efésios 4:29 — 'Não saia da boca de vocês nenhuma palavra prejudicial, mas somente a que for boa para edificação.'",
-    "safetyNotes": ["Se usar elogios nominais, certifique-se que todas as crianças recebam ao menos um."],
+    "safetyNotes": [
+      "Se usar elogios nominais, certifique-se que todas as crianças recebam ao menos um."
+    ],
     "youngerAdaptation": "Use apenas as folhas amassadas como ilustração e fale sobre palavras boas e ruins sem escrever.",
     "olderAdaptation": "Discuta o impacto de palavras nas redes sociais: comentários, memes, cyberbullying.",
     "noMaterialsAlternative": "Faça em roda: cada criança fala um elogio para a pessoa à direita.",
-    "tags": ["bondade", "palavras", "encorajamento", "amabilidade", "Efésios 4", "construir"],
+    "tags": [
+      "bondade",
+      "palavras",
+      "encorajamento",
+      "amabilidade",
+      "Efésios 4",
+      "construir"
+    ],
     "status": "aprovado"
   }
 ]

@@ -4,19 +4,39 @@
     "title": "O Mundo de Deus — Conhecendo os povos",
     "summary": "Atividade de exploração geográfica e cultural que abre o olhar das crianças para os povos do mundo e desperta intercessão pela Grande Comissão.",
     "category": "missoes-e-evangelismo",
-    "themes": ["missões", "povos do mundo", "Grande Comissão", "diversidade cultural"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "missões",
+      "povos do mundo",
+      "Grande Comissão",
+      "diversidade cultural"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 30,
     "difficulty": "facil",
-    "environment": ["sala"],
+    "environment": [
+      "sala"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Mateus 28:19-20; Apocalipse 7:9",
     "mainTruth": "Deus ama todos os povos da terra e nos chama a compartilhar essa notícia.",
     "objective": "Ampliar a visão das crianças para além da própria comunidade e despertar interesse por missões.",
-    "materials": ["mapa-múndi impresso ou desenhado", "bandeirinhas de papel colorido ou post-its", "canetas"],
-    "preparation": ["Cole o mapa em local visível. Prepare bandeirinhas pequenas de papel."],
+    "materials": [
+      "mapa-múndi impresso ou desenhado",
+      "bandeirinhas de papel colorido ou post-its",
+      "canetas"
+    ],
+    "preparation": [
+      "Cole o mapa em local visível. Prepare bandeirinhas pequenas de papel."
+    ],
     "steps": [
       "Mostre o mapa: 'Quantos países vocês conseguem nomear?'",
       "Leia Apocalipse 7:9: 'Uma multidão de toda nação, tribo, povo e língua.'",
@@ -32,11 +52,22 @@
     ],
     "prayerSuggestion": "Pai, seu coração é pelos povos do mundo inteiro. Que o nosso coração também seja. Envia trabalhadores para a tua colheita. Amém.",
     "memoryVerse": "Mateus 28:19 — 'Portanto, vão e façam discípulos de todas as nações.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Fixe o mapa em superfície plana e estável antes de iniciar.",
+      "Post-its ou bandeirinhas: use fita sem excesso para não danificar o mapa.",
+      "Canetas: prefira laváveis para crianças menores de 8 anos."
+    ],
     "youngerAdaptation": "Foque em apenas 3-4 países com fotos de crianças desses países para tornar concreto.",
     "olderAdaptation": "Peça que pesquisem em casa um povo não alcançado e tragam no próximo encontro.",
     "noMaterialsAlternative": "Façam o mapa imaginário no chão com fita ou desenhado em papel craft.",
-    "tags": ["missões", "mapa", "povos", "Grande Comissão", "Mateus 28", "Apocalipse 7"],
+    "tags": [
+      "missões",
+      "mapa",
+      "povos",
+      "Grande Comissão",
+      "Mateus 28",
+      "Apocalipse 7"
+    ],
     "status": "aprovado"
   },
   {
@@ -44,19 +75,40 @@
     "title": "Como Compartilho Minha Fé?",
     "summary": "Prática guiada de como contar a própria história de fé em poucos minutos, de forma natural e sem fórmulas, desenvolvendo confiança no evangelismo pessoal.",
     "category": "missoes-e-evangelismo",
-    "themes": ["evangelismo", "testemunho", "fé pessoal", "compartilhar"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20"],
+    "themes": [
+      "evangelismo",
+      "testemunho",
+      "fé pessoal",
+      "compartilhar"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 30,
     "difficulty": "medio",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "1 Pedro 3:15; Atos 1:8",
     "mainTruth": "O melhor evangelismo é contar o que Deus fez em você — é uma história que ninguém pode refutar.",
     "objective": "Capacitar as crianças a articular sua história de fé de forma simples e natural.",
-    "materials": ["folhas de papel", "canetas"],
-    "preparation": [],
+    "materials": [
+      "folhas de papel",
+      "canetas"
+    ],
+    "preparation": [
+      "Distribua uma folha e caneta por criança antes de iniciar.",
+      "Pense em um exemplo pessoal de missão para compartilhar com as crianças."
+    ],
     "steps": [
       "Explique: 'Todo cristão tem uma história. Sua história é sua melhor ferramenta.'",
       "Ensine o formato de 3 partes: Como era minha vida antes / O que mudou / Como é agora.",
@@ -72,11 +124,20 @@
     ],
     "prayerSuggestion": "Senhor, dá-nos coragem de contar o que você fez em nossas vidas. Que nossas histórias abram corações. Amém.",
     "memoryVerse": "1 Pedro 3:15 — 'Estejam sempre preparados para responder a todo aquele que lhes pedir a razão da esperança que há em vocês.'",
-    "safetyNotes": ["Respeite que algumas crianças ainda não tenham uma 'história de conversão' clara — foque no que Deus significa para elas."],
+    "safetyNotes": [
+      "Respeite que algumas crianças ainda não tenham uma 'história de conversão' clara — foque no que Deus significa para elas."
+    ],
     "youngerAdaptation": "Simplifique para: 'Deus é importante para mim porque...' em uma frase.",
     "olderAdaptation": "Pratique responder a perguntas difíceis: 'E se Deus não existe?' 'Por que sofremos?'",
     "noMaterialsAlternative": "Façam o exercício verbal sem escrever, contando oralmente em duplas.",
-    "tags": ["evangelismo", "testemunho", "história de fé", "1 Pedro 3", "compartilhar", "natural"],
+    "tags": [
+      "evangelismo",
+      "testemunho",
+      "história de fé",
+      "1 Pedro 3",
+      "compartilhar",
+      "natural"
+    ],
     "status": "aprovado"
   },
   {
@@ -84,13 +145,30 @@
     "title": "Orando pelos Povos do Mundo",
     "summary": "Roda de intercessão pelos povos e países do mundo, usando informações simples para personalizar a oração e desenvolver um coração missionário.",
     "category": "missoes-e-evangelismo",
-    "themes": ["intercessão", "missões", "povos", "oração missionária"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20", "21+"],
+    "themes": [
+      "intercessão",
+      "missões",
+      "povos",
+      "oração missionária"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20",
+      "21+"
+    ],
     "type": "oracao",
     "durationMinutes": 15,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Salmos 96:3; Mateus 9:37-38",
     "mainTruth": "Orar pelos povos é participar das missões de onde estiver.",
@@ -116,7 +194,14 @@
     "youngerAdaptation": "O professor nomeia os países e as crianças repetem a oração em coro.",
     "olderAdaptation": "Peça que pesquisem antes do encontro: um país, uma necessidade específica, e orem com mais detalhes.",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["oração", "missões", "povos", "intercessão", "Mateus 9", "missionário"],
+    "tags": [
+      "oração",
+      "missões",
+      "povos",
+      "intercessão",
+      "Mateus 9",
+      "missionário"
+    ],
     "status": "aprovado"
   },
   {
@@ -124,19 +209,39 @@
     "title": "A Grande Comissão em Ação",
     "summary": "Estudo interativo de Mateus 28:18-20 com aplicação prática, ajudando as crianças a entender que a missão começa onde estão — na escola, em casa, no bairro.",
     "category": "missoes-e-evangelismo",
-    "themes": ["Grande Comissão", "discipulado", "missão local", "Mateus 28"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "Grande Comissão",
+      "discipulado",
+      "missão local",
+      "Mateus 28"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 25,
     "difficulty": "medio",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Mateus 28:18-20; Atos 1:8",
     "mainTruth": "A missão começa na sua escola e no seu bairro, não apenas em países distantes.",
     "objective": "Conectar a Grande Comissão com o cotidiano das crianças e motivar ação local.",
-    "materials": ["folhas de papel", "canetas"],
-    "preparation": [],
+    "materials": [
+      "folhas de papel",
+      "canetas"
+    ],
+    "preparation": [
+      "Separe folha e caneta por criança antes da aula.",
+      "Leia a história bíblica com antecedência para narrá-la com confiança."
+    ],
     "steps": [
       "Leia Mateus 28:18-20 lentamente, frase por frase.",
       "Para cada frase, pergunte: 'O que isso significa na prática?'",
@@ -152,11 +257,21 @@
     ],
     "prayerSuggestion": "Jesus, você tem toda a autoridade e promete estar conosco. Dá-nos coragem para ir — começando pela nossa escola e família. Amém.",
     "memoryVerse": "Mateus 28:20 — 'E eu estarei sempre com vocês, até o fim dos tempos.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Distribua folhas e canetas antes de iniciar para não interromper a reflexão.",
+      "Recolha as canetas ao final para evitar marcas em mobiliário."
+    ],
     "youngerAdaptation": "Foque apenas em 'ir e contar' — defina que 'contar' pode ser chamar um amigo para o grupo.",
     "olderAdaptation": "Crie um plano missionário pessoal de 30 dias com ações concretas.",
     "noMaterialsAlternative": "Façam verbalmente: cada criança diz um nome e um ato concreto que vai realizar.",
-    "tags": ["Grande Comissão", "Mateus 28", "missão local", "discipulado", "escola", "evangelismo"],
+    "tags": [
+      "Grande Comissão",
+      "Mateus 28",
+      "missão local",
+      "discipulado",
+      "escola",
+      "evangelismo"
+    ],
     "status": "aprovado"
   },
   {
@@ -164,19 +279,37 @@
     "title": "Ajudando Quem Precisa — Missão no Bairro",
     "summary": "Planejamento coletivo de uma ação de serviço para a comunidade local, conectando missões com amor prático ao próximo.",
     "category": "missoes-e-evangelismo",
-    "themes": ["missão local", "serviço", "compaixão", "amor ao próximo"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "missão local",
+      "serviço",
+      "compaixão",
+      "amor ao próximo"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 30,
     "difficulty": "medio",
-    "environment": ["sala"],
+    "environment": [
+      "sala"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Isaías 58:6-7; Tiago 2:17",
     "mainTruth": "A fé sem obras é morta — amar a Deus inclui amar as pessoas ao redor.",
     "objective": "Mobilizar as crianças para uma ação concreta de serviço no entorno da igreja ou escola.",
-    "materials": ["folhas para planejamento", "canetas"],
-    "preparation": ["Prepare uma estrutura simples de planejamento: O quê? Para quem? Quando? Quem ajuda?"],
+    "materials": [
+      "folhas para planejamento",
+      "canetas"
+    ],
+    "preparation": [
+      "Prepare uma estrutura simples de planejamento: O quê? Para quem? Quando? Quem ajuda?"
+    ],
     "steps": [
       "Leia Isaías 58:6-7: libertação, partilha, casa para o peregrino, roupa para o nu.",
       "Pergunte: 'Quem na nossa comunidade precisa de ajuda? Onde você vê necessidade?'",
@@ -192,11 +325,20 @@
     ],
     "prayerSuggestion": "Senhor, abre nossos olhos para as necessidades ao redor. Que nossa fé seja visível em atos de amor concretos. Amém.",
     "memoryVerse": "Tiago 2:17 — 'Assim também a fé, se não tiver obras, por si mesma está morta.'",
-    "safetyNotes": ["Certifique-se de que qualquer ação planejada seja aprovada pelos responsáveis da igreja."],
+    "safetyNotes": [
+      "Certifique-se de que qualquer ação planejada seja aprovada pelos responsáveis da igreja."
+    ],
     "youngerAdaptation": "Foque em uma ação simples dentro da própria igreja: arrumar, decorar, ajudar.",
     "olderAdaptation": "Crie um cronograma real com prazos e responsabilidades definidas.",
     "noMaterialsAlternative": "Façam o planejamento verbal e oral sem escrever — o professor anota no quadro.",
-    "tags": ["missão local", "serviço", "comunidade", "Tiago 2", "compaixão", "ação"],
+    "tags": [
+      "missão local",
+      "serviço",
+      "comunidade",
+      "Tiago 2",
+      "compaixão",
+      "ação"
+    ],
     "status": "aprovado"
   }
 ]

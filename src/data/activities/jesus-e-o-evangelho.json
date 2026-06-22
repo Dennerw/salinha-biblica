@@ -4,19 +4,39 @@
     "title": "A Tempestade Acalmada — Jesus tem autoridade",
     "summary": "Atividade sensorial onde as crianças vivem a tempestade com sons e movimentos, e experimentam a paz que Jesus traz, conectando à confiança em momentos difíceis.",
     "category": "jesus-e-o-evangelho",
-    "themes": ["autoridade de Jesus", "fé", "medo", "paz", "milagres"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "autoridade de Jesus",
+      "fé",
+      "medo",
+      "paz",
+      "milagres"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 25,
     "difficulty": "facil",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "agitado",
     "bibleReference": "Marcos 4:35-41",
     "mainTruth": "Jesus tem autoridade sobre qualquer tempestade — na natureza e na nossa vida.",
     "objective": "Ajudar as crianças a identificar seus medos e confiar na autoridade de Jesus sobre eles.",
-    "materials": ["folhas de papel (para abanar como vento)"],
-    "preparation": [],
+    "materials": [
+      "folhas de papel (para abanar como vento)"
+    ],
+    "preparation": [
+      "Corte ou dobre as folhas de papel para facilitar o movimento.",
+      "Teste o espaço da sala para garantir que há espaço suficiente para agitar os papéis."
+    ],
     "steps": [
       "Peça que as crianças finjam estar num barco (sentadas no chão em círculo).",
       "O professor é o narrador: 'O vento começou a soprar...' — todos abanam o papel.",
@@ -32,11 +52,20 @@
     ],
     "prayerSuggestion": "Jesus, você é o Senhor das tempestades. Quando tivermos medo, ajuda-nos a lembrar que você está no nosso barco. Amém.",
     "memoryVerse": "Marcos 4:39 — 'Ele se levantou, repreendeu o vento e disse ao mar: Silêncio! Acalma-te!'",
-    "safetyNotes": ["Oriente que o balançar do corpo seja suave para não machucar quem está próximo."],
+    "safetyNotes": [
+      "Oriente que o balançar do corpo seja suave para não machucar quem está próximo."
+    ],
     "youngerAdaptation": "Simplifique para apenas dois momentos: tempestade (barulho) e paz (silêncio).",
     "olderAdaptation": "Após a atividade, peça que escrevam sua 'tempestade pessoal' em papel e coloquem na mão de Jesus simbolicamente.",
     "noMaterialsAlternative": "Façam os sons de vento com a boca e movimentos com o corpo sem usar papel.",
-    "tags": ["tempestade", "autoridade", "paz", "fé", "milagres", "medo"],
+    "tags": [
+      "tempestade",
+      "autoridade",
+      "paz",
+      "fé",
+      "milagres",
+      "medo"
+    ],
     "status": "aprovado"
   },
   {
@@ -44,13 +73,29 @@
     "title": "O Filho Pródigo — O amor que perdoa",
     "summary": "Reflexão vivencial sobre o amor incondicional do pai na parábola, ajudando as crianças a entenderem o perdão de Deus e como aplicá-lo nas relações delas.",
     "category": "jesus-e-o-evangelho",
-    "themes": ["perdão", "amor incondicional", "arrependimento", "parábolas"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20"],
+    "themes": [
+      "perdão",
+      "amor incondicional",
+      "arrependimento",
+      "parábolas"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 20,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Lucas 15:11-32",
     "mainTruth": "O amor de Deus corre ao nosso encontro, mesmo quando erramos muito.",
@@ -76,7 +121,14 @@
     "youngerAdaptation": "Use fantoches ou bonecos simples para contar a história visualmente.",
     "olderAdaptation": "Discuta o irmão mais velho: o que ele representa? Você já se sentiu como ele?",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["perdão", "amor", "parábola", "filho pródigo", "pai", "arrependimento"],
+    "tags": [
+      "perdão",
+      "amor",
+      "parábola",
+      "filho pródigo",
+      "pai",
+      "arrependimento"
+    ],
     "status": "aprovado"
   },
   {
@@ -84,19 +136,37 @@
     "title": "Zaqueu na Figueira — Jesus me vê",
     "summary": "Atividade de movimento onde uma criança sobe em uma 'árvore' (cadeira) e experimenta a sensação de ser chamada por Jesus, explorando aceitação e transformação.",
     "category": "jesus-e-o-evangelho",
-    "themes": ["aceitação", "transformação", "Zaqueu", "Jesus chama pelo nome"],
-    "ageGroups": ["3-5", "6-8"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "aceitação",
+      "transformação",
+      "Zaqueu",
+      "Jesus chama pelo nome"
+    ],
+    "ageGroups": [
+      "3-5",
+      "6-8"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "teatro",
     "durationMinutes": 15,
     "difficulty": "facil",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Lucas 19:1-10",
     "mainTruth": "Jesus te vê, te conhece pelo nome e quer estar na sua casa hoje.",
     "objective": "Que as crianças sintam que Jesus as conhece e as aceita independentemente do que as outras pessoas pensam.",
-    "materials": ["uma cadeira resistente"],
-    "preparation": ["Certifique-se de que a cadeira é segura para uma criança ficar em pé."],
+    "materials": [
+      "uma cadeira resistente"
+    ],
+    "preparation": [
+      "Certifique-se de que a cadeira é segura para uma criança ficar em pé."
+    ],
     "steps": [
       "Explique quem era Zaqueu: cobrador de impostos, não gostado por ninguém, baixinho.",
       "Escolha uma criança voluntária para ser Zaqueu e subir de pé na cadeira (com suporte).",
@@ -119,7 +189,14 @@
     "youngerAdaptation": "Em vez de subir na cadeira, a criança fica na ponta dos pés tentando enxergar por cima dos colegas.",
     "olderAdaptation": "Discuta: Zaqueu devolveu o dinheiro. Há algo que você precisa 'devolver' ou consertar?",
     "noMaterialsAlternative": "Faça a atividade sem cadeira: a criança fica na ponta dos pés e o professor vai até ela.",
-    "tags": ["Zaqueu", "aceitação", "transformação", "Jesus", "nome", "publicano"],
+    "tags": [
+      "Zaqueu",
+      "aceitação",
+      "transformação",
+      "Jesus",
+      "nome",
+      "publicano"
+    ],
     "status": "aprovado"
   },
   {
@@ -127,18 +204,36 @@
     "title": "Os Cinco Pães e Dois Peixes",
     "summary": "Dinâmica de partilha onde as crianças simulam o milagre da multiplicação e descobrem que Deus pode fazer muito com pouco quando entregamos o que temos.",
     "category": "jesus-e-o-evangelho",
-    "themes": ["generosidade", "milagres", "confiar em Jesus", "partilha"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["6-10", "11-20", "21+"],
+    "themes": [
+      "generosidade",
+      "milagres",
+      "confiar em Jesus",
+      "partilha"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20",
+      "21+"
+    ],
     "type": "jogo",
     "durationMinutes": 30,
     "difficulty": "facil",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "João 6:1-13",
     "mainTruth": "Deus pode multiplicar o que entregamos a Ele com fé.",
     "objective": "Explorar o tema da generosidade e confiança em Deus através da experiência de partilhar.",
-    "materials": ["tiras de papel colorido (representando pães e peixes)", "caixinhas ou tigelas pequenas"],
+    "materials": [
+      "tiras de papel colorido (representando pães e peixes)",
+      "caixinhas ou tigelas pequenas"
+    ],
     "preparation": [
       "Corte tiras amarelas (pães) e azuis (peixes). Separe apenas 5 amarelas e 2 azuis para o início."
     ],
@@ -157,11 +252,21 @@
     ],
     "prayerSuggestion": "Jesus, queremos ser como o menino — entregar o que temos nas suas mãos. Multiplica a nossa fé, o nosso tempo e a nossa generosidade. Amém.",
     "memoryVerse": "João 6:11 — 'Jesus tomou os pães e, havendo dado graças, os distribuiu.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Tiras de papel: confira que não há bordas cortantes.",
+      "Caixinhas ou tigelas: verifique estabilidade para não tombar durante a atividade."
+    ],
     "youngerAdaptation": "Pule a explicação e vá direto para a surpresa da caixa cheia. A alegria já comunica.",
     "olderAdaptation": "Discuta: o que você tem de pequeno que pode entregar a Deus? (talentos, tempo, dinheiro?)",
     "noMaterialsAlternative": "Faça o milagre com números orais: '5 + 2 não bastam. Jesus ora. Agora temos 5.000!'",
-    "tags": ["multiplicação", "pães", "peixes", "milagre", "generosidade", "partilha"],
+    "tags": [
+      "multiplicação",
+      "pães",
+      "peixes",
+      "milagre",
+      "generosidade",
+      "partilha"
+    ],
     "status": "aprovado"
   },
   {
@@ -169,19 +274,43 @@
     "title": "A Páscoa de Jesus — Da Cruz à Ressurreição",
     "summary": "Sequência narrativa com momentos de reflexão e celebração, guiando as crianças do peso da cruz à alegria da ressurreição e seu significado para cada uma.",
     "category": "jesus-e-o-evangelho",
-    "themes": ["ressurreição", "salvação", "cruz", "Páscoa", "vitória"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20", "21+"],
+    "themes": [
+      "ressurreição",
+      "salvação",
+      "cruz",
+      "Páscoa",
+      "vitória"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20",
+      "21+"
+    ],
     "type": "reflexao",
     "durationMinutes": 35,
     "difficulty": "medio",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Lucas 23–24",
     "mainTruth": "Jesus morreu e ressuscitou para que possamos ser amigos de Deus para sempre.",
     "objective": "Levar as crianças a compreender o significado da morte e ressurreição de Jesus de forma pessoal.",
-    "materials": ["pedaços de papel escuro (pecado)", "pedaços de papel branco (perdão)", "uma caixa ou lixo simbólico"],
-    "preparation": ["Separe os papéis em dois grupos por cor."],
+    "materials": [
+      "pedaços de papel escuro (pecado)",
+      "pedaços de papel branco (perdão)",
+      "uma caixa ou lixo simbólico"
+    ],
+    "preparation": [
+      "Separe os papéis em dois grupos por cor."
+    ],
     "steps": [
       "Distribua um papel escuro para cada criança. Peça que escrevam (ou desenhem) algo que fizeram de errado.",
       "Explique a morte de Jesus: Ele carregou todos esses erros na cruz.",
@@ -197,11 +326,20 @@
     ],
     "prayerSuggestion": "Jesus, obrigado por morrer pelos nossos erros e ressuscitar para nos dar vida nova. Queremos viver com você. Amém.",
     "memoryVerse": "João 11:25 — 'Eu sou a ressurreição e a vida. Quem crê em mim, ainda que morra, viverá.'",
-    "safetyNotes": ["Não force as crianças a compartilhar o que escreveram no papel escuro."],
+    "safetyNotes": [
+      "Não force as crianças a compartilhar o que escreveram no papel escuro."
+    ],
     "youngerAdaptation": "Use apenas as cores: escuro = tristeza, branco = alegria. Sem escrita.",
     "olderAdaptation": "Discuta: a ressurreição é histórica. Como você responderia a alguém que diz que é mito?",
     "noMaterialsAlternative": "Façam o gesto: punho fechado (pecado) → abrem a mão → braços erguidos (ressurreição).",
-    "tags": ["ressurreição", "cruz", "Páscoa", "salvação", "morte de Jesus", "vida nova"],
+    "tags": [
+      "ressurreição",
+      "cruz",
+      "Páscoa",
+      "salvação",
+      "morte de Jesus",
+      "vida nova"
+    ],
     "status": "aprovado"
   }
 ]

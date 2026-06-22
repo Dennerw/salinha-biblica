@@ -4,13 +4,27 @@
     "title": "Somos um Corpo — Cada parte importa",
     "summary": "Jogo de movimento onde cada criança representa uma parte do corpo e descobre que sem cada membro a turma não funciona, revelando a interdependência na Igreja.",
     "category": "igreja-e-comunhao",
-    "themes": ["unidade", "corpo de Cristo", "cada um importa", "Igreja"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "unidade",
+      "corpo de Cristo",
+      "cada um importa",
+      "Igreja"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 20,
     "difficulty": "facil",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "agitado",
     "bibleReference": "1 Coríntios 12:12-27",
     "mainTruth": "Na Igreja, cada pessoa é essencial — ninguém é desnecessário.",
@@ -36,7 +50,14 @@
     "youngerAdaptation": "Use apenas mãos e pés — duas partes só. Simplifique a tarefa para colorir juntos.",
     "olderAdaptation": "Peça que identifiquem dons espirituais (1 Coríntios 12:8-10) e qual se aproxima do deles.",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["corpo de Cristo", "unidade", "Igreja", "1 Coríntios 12", "interdependência", "dons"],
+    "tags": [
+      "corpo de Cristo",
+      "unidade",
+      "Igreja",
+      "1 Coríntios 12",
+      "interdependência",
+      "dons"
+    ],
     "status": "aprovado"
   },
   {
@@ -44,19 +65,39 @@
     "title": "Mosaico da Turma",
     "summary": "Cada criança decora um pedaço de papel que, junto com os outros, forma um painel coletivo — metáfora visual de como diferentes pessoas formam uma comunidade bela.",
     "category": "igreja-e-comunhao",
-    "themes": ["diversidade", "unidade na diversidade", "comunidade", "identidade"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["6-10", "11-20", "21+"],
+    "themes": [
+      "diversidade",
+      "unidade na diversidade",
+      "comunidade",
+      "identidade"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20",
+      "21+"
+    ],
     "type": "arte",
     "durationMinutes": 35,
     "difficulty": "facil",
-    "environment": ["sala"],
+    "environment": [
+      "sala"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Romanos 12:4-6",
     "mainTruth": "Somos diferentes, mas juntos formamos algo que nenhum de nós poderia ser sozinho.",
     "objective": "Valorizar a diversidade dentro da comunidade de fé e a beleza da unidade.",
-    "materials": ["quadrados de papel (1 por criança, 15x15 cm)", "canetinhas coloridas", "fita adesiva ou cola"],
-    "preparation": ["Separe os quadrados. Prepare uma superfície grande para montar o painel ao final."],
+    "materials": [
+      "quadrados de papel (1 por criança, 15x15 cm)",
+      "canetinhas coloridas",
+      "fita adesiva ou cola"
+    ],
+    "preparation": [
+      "Separe os quadrados. Prepare uma superfície grande para montar o painel ao final."
+    ],
     "steps": [
       "Entregue um quadrado de papel a cada criança.",
       "Peça que decorem com 3 coisas: algo que os representa, uma cor que gostam e seu nome.",
@@ -72,11 +113,22 @@
     ],
     "prayerSuggestion": "Pai, obrigado por nos criar diferentes. Ajuda-nos a celebrar nossas diferenças e a nos unirmos em amor. Amém.",
     "memoryVerse": "Romanos 12:5 — 'Assim também nós, sendo muitos, somos um só corpo em Cristo.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Quadrados de papel com bordas cortadas: confira se não há cantos pontiagudos.",
+      "Cola ou fita adesiva: não deixe em contato prolongado com pele das crianças.",
+      "Oriente o descarte correto dos papéis ao final."
+    ],
     "youngerAdaptation": "Use apenas cores — cada criança escolhe uma cor favorita e a pinta no quadrado.",
     "olderAdaptation": "Peça que escrevam um dom ou talento que querem usar pela comunidade.",
     "noMaterialsAlternative": "Façam um 'mosaico humano': cada um fica em um ponto do salão e juntos formam uma figura vista de cima.",
-    "tags": ["mosaico", "diversidade", "comunidade", "arte", "Romanos 12", "unidade"],
+    "tags": [
+      "mosaico",
+      "diversidade",
+      "comunidade",
+      "arte",
+      "Romanos 12",
+      "unidade"
+    ],
     "status": "aprovado"
   },
   {
@@ -84,19 +136,37 @@
     "title": "Servindo uns aos Outros",
     "summary": "Estações de serviço onde as crianças realizam pequenas tarefas umas para as outras, experimentando que servir é uma forma de amar como Jesus amou.",
     "category": "igreja-e-comunhao",
-    "themes": ["serviço", "amor prático", "comunidade", "humildade"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "serviço",
+      "amor prático",
+      "comunidade",
+      "humildade"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 30,
     "difficulty": "facil",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Gálatas 5:13; João 13:35",
     "mainTruth": "O amor que mostramos ao servir uns aos outros é a marca dos discípulos de Jesus.",
     "objective": "Criar experiência prática de serviço mútuo e conectá-la ao amor como identidade cristã.",
-    "materials": ["materiais variados: papel, lápis, borracha, caixas para organizar"],
-    "preparation": ["Monte 3 estações: Estação 1 — arrumar cadeiras; Estação 2 — ajudar alguém com uma tarefa escolar simples; Estação 3 — escrever uma nota de encorajamento."],
+    "materials": [
+      "materiais variados: papel, lápis, borracha, caixas para organizar"
+    ],
+    "preparation": [
+      "Monte 3 estações: Estação 1 — arrumar cadeiras; Estação 2 — ajudar alguém com uma tarefa escolar simples; Estação 3 — escrever uma nota de encorajamento."
+    ],
     "steps": [
       "Divida a turma em 3 grupos. Cada grupo começa em uma estação.",
       "Cada estação dura 5 minutos. Rotacione até todos passarem por todas.",
@@ -111,11 +181,22 @@
     ],
     "prayerSuggestion": "Jesus, ensina-nos a amar como você amou — em atos concretos, não só em palavras. Amém.",
     "memoryVerse": "João 13:35 — 'Nisso todos saberão que vocês são meus discípulos: se vocês se amarem uns aos outros.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Organize os materiais sobre a mesa antes de iniciar para evitar disputa.",
+      "Caixas: confira que não há pregos ou grampos expostos.",
+      "Borracha: oriente as crianças a não levarem à boca."
+    ],
     "youngerAdaptation": "Simplifique para duas estações: arrumar algo e fazer um desenho para um colega.",
     "olderAdaptation": "Discuta: servir é diferente de ser usado. Onde está o limite? Como Jesus estabelecia limites?",
     "noMaterialsAlternative": "Substitua as estações por atos de serviço verbal: um elogio sincero, um pedido de desculpas, um encorajamento.",
-    "tags": ["serviço", "amor prático", "discipulado", "João 13", "comunidade", "estações"],
+    "tags": [
+      "serviço",
+      "amor prático",
+      "discipulado",
+      "João 13",
+      "comunidade",
+      "estações"
+    ],
     "status": "aprovado"
   },
   {
@@ -123,13 +204,28 @@
     "title": "Acolhendo Quem Chega",
     "summary": "Simulação de chegada em um grupo novo, onde as crianças experimentam ser ignoradas e depois acolhidas, desenvolvendo empatia e práticas de hospitalidade.",
     "category": "igreja-e-comunhao",
-    "themes": ["acolhimento", "empatia", "hospitalidade", "novos amigos"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "acolhimento",
+      "empatia",
+      "hospitalidade",
+      "novos amigos"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "teatro",
     "durationMinutes": 25,
     "difficulty": "facil",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Romanos 15:7; Hebreus 13:2",
     "mainTruth": "Acolher o outro é uma das formas mais concretas de mostrar o amor de Cristo.",
@@ -151,11 +247,20 @@
     ],
     "prayerSuggestion": "Senhor, assim como você nos recebeu, ajuda-nos a receber os outros com amor genuíno. Amém.",
     "memoryVerse": "Romanos 15:7 — 'Portanto, acolham uns aos outros, como Cristo os acolheu.'",
-    "safetyNotes": ["Escolha um voluntário que você sabe que se sentirá seguro com o exercício."],
+    "safetyNotes": [
+      "Escolha um voluntário que você sabe que se sentirá seguro com o exercício."
+    ],
     "youngerAdaptation": "Substitua pela brincadeira 'Roda de boas-vindas': cada criança se apresenta e a turma responde com um aplauso.",
     "olderAdaptation": "Discuta: como fazer isso nas redes sociais? O que é acolhimento digital?",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["acolhimento", "empatia", "hospitalidade", "novos amigos", "Romanos 15", "inclusão"],
+    "tags": [
+      "acolhimento",
+      "empatia",
+      "hospitalidade",
+      "novos amigos",
+      "Romanos 15",
+      "inclusão"
+    ],
     "status": "aprovado"
   },
   {
@@ -163,19 +268,38 @@
     "title": "A Torre da Cooperação",
     "summary": "Desafio de construção em equipe com regras de comunicação limitada, revelando o poder da colaboração, do ouvir e do respeitar as ideias do outro.",
     "category": "igreja-e-comunhao",
-    "themes": ["cooperação", "trabalho em equipe", "comunicação", "unidade"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "cooperação",
+      "trabalho em equipe",
+      "comunicação",
+      "unidade"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 30,
     "difficulty": "medio",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Eclesiastes 4:9-10; 1 Coríntios 1:10",
     "mainTruth": "Mais do que um talento individual, Deus usa times unidos com o mesmo propósito.",
     "objective": "Desenvolver habilidades de cooperação, escuta ativa e comunicação respeitosa em grupo.",
-    "materials": ["copos plásticos descartáveis (20 por equipe)", "elástico com barbantes (1 por equipe)"],
-    "preparation": ["Amarre 4-5 barbantes a um elástico — cada participante segura um barbante para mover o elástico."],
+    "materials": [
+      "copos plásticos descartáveis (20 por equipe)",
+      "elástico com barbantes (1 por equipe)"
+    ],
+    "preparation": [
+      "Amarre 4-5 barbantes a um elástico — cada participante segura um barbante para mover o elástico."
+    ],
     "steps": [
       "Divida em equipes de 4-5. Cada equipe recebe os copos e o elástico com barbantes.",
       "Desafio: construir a torre mais alta possível usando apenas o elástico para pegar e empilhar os copos.",
@@ -191,11 +315,20 @@
     ],
     "prayerSuggestion": "Pai, ensina-nos a trabalhar juntos com humildade. Que nosso grupo seja um time que te honra. Amém.",
     "memoryVerse": "Eclesiastes 4:9 — 'Melhor são dois do que um, porque recebem melhor paga pelo seu trabalho.'",
-    "safetyNotes": ["Os copos devem ser leves e o espaço livre o suficiente para os times trabalharem."],
+    "safetyNotes": [
+      "Os copos devem ser leves e o espaço livre o suficiente para os times trabalharem."
+    ],
     "youngerAdaptation": "Substitua por 'torre de blocos' — mais simples e concreto para crianças menores.",
     "olderAdaptation": "Adicione papéis dentro do time: líder, observador, encorajador. Discuta as funções após.",
     "noMaterialsAlternative": "Desafio verbal: construam uma história coletiva frase por frase, cada um acrescentando sem contradizer o anterior.",
-    "tags": ["cooperação", "equipe", "comunicação", "torre", "Eclesiastes 4", "unidade"],
+    "tags": [
+      "cooperação",
+      "equipe",
+      "comunicação",
+      "torre",
+      "Eclesiastes 4",
+      "unidade"
+    ],
     "status": "aprovado"
   }
 ]

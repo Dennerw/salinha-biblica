@@ -4,19 +4,40 @@
     "title": "Teia de Amizade",
     "summary": "Jogo clássico de rolar o novelo de lã enquanto conta algo sobre si mesmo, criando uma teia visual que representa a conexão do grupo.",
     "category": "quebra-gelo",
-    "themes": ["apresentação", "conexão", "amizade", "integração"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "apresentação",
+      "conexão",
+      "amizade",
+      "integração"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 20,
     "difficulty": "facil",
-    "environment": ["sala", "salao", "qualquer"],
+    "environment": [
+      "sala",
+      "salao",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Eclesiastes 4:12",
     "mainTruth": "Estamos conectados uns aos outros — e essa conexão é um presente de Deus.",
     "objective": "Criar conexão inicial entre as crianças e facilitar a apresentação de forma lúdica.",
-    "materials": ["novelo de lã ou barbante"],
-    "preparation": [],
+    "materials": [
+      "novelo de lã ou barbante"
+    ],
+    "preparation": [
+      "Enrole o novelo de lã deixando ponta solta para começar.",
+      "Teste o espaço: certifique-se de que não há objetos que possam travar o barbante."
+    ],
     "steps": [
       "Sente a turma em círculo.",
       "O professor começa: segura a ponta do novelo, conta algo sobre si mesmo (nome, coisa favorita, curiosidade) e rola para uma criança.",
@@ -32,11 +53,20 @@
     ],
     "prayerSuggestion": "Pai, obrigado por nos colocar juntos. Que nossa turma seja um lugar de amizade verdadeira. Amém.",
     "memoryVerse": "Eclesiastes 4:12 — 'O cordão de três dobras não se rompe facilmente.'",
-    "safetyNotes": ["Cuidado para não apertar o fio ao redor dos dedos."],
+    "safetyNotes": [
+      "Cuidado para não apertar o fio ao redor dos dedos."
+    ],
     "youngerAdaptation": "Use apenas o nome e uma cor favorita. Mantenha simples.",
     "olderAdaptation": "Peça que compartilhem um sonho ou algo que querem aprender nesse semestre.",
     "noMaterialsAlternative": "Sem novelo: cada criança aponta para a próxima e diz algo que quer saber sobre ela antes de ela falar.",
-    "tags": ["teia", "novelo", "amizade", "apresentação", "integração", "conexão"],
+    "tags": [
+      "teia",
+      "novelo",
+      "amizade",
+      "apresentação",
+      "integração",
+      "conexão"
+    ],
     "status": "aprovado"
   },
   {
@@ -44,13 +74,27 @@
     "title": "Dois Fatos e Uma Mentira",
     "summary": "Cada criança conta dois fatos verdadeiros e uma mentira sobre si mesma; o grupo tenta adivinhar qual é a mentira — gerando risadas e descobertas mútuas.",
     "category": "quebra-gelo",
-    "themes": ["conhecer o outro", "humor", "integração", "curiosidade"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "conhecer o outro",
+      "humor",
+      "integração",
+      "curiosidade"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "jogo",
     "durationMinutes": 20,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "moderado",
     "bibleReference": "Provérbios 17:22",
     "mainTruth": "Conhecer uns aos outros com alegria é o começo de uma amizade verdadeira.",
@@ -76,7 +120,14 @@
     "youngerAdaptation": "Substitua por 'Verdade ou Invenção?' — o professor conta algo real ou inventado sobre animais ou lugares.",
     "olderAdaptation": "Inclua uma rodada de perguntas: o grupo pode fazer uma pergunta de acompanhamento após o reveal.",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["verdade", "mentira", "jogo", "integração", "conhecer", "humor"],
+    "tags": [
+      "verdade",
+      "mentira",
+      "jogo",
+      "integração",
+      "conhecer",
+      "humor"
+    ],
     "status": "aprovado"
   },
   {
@@ -84,13 +135,30 @@
     "title": "Linha do Tempo das Crianças",
     "summary": "As crianças se organizam em fila por data de aniversário sem falar — usando apenas gestos — desenvolvendo comunicação não verbal e cooperação desde o início.",
     "category": "quebra-gelo",
-    "themes": ["cooperação", "comunicação não verbal", "integração", "movimento"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["6-10", "11-20", "21+"],
+    "themes": [
+      "cooperação",
+      "comunicação não verbal",
+      "integração",
+      "movimento"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20",
+      "21+"
+    ],
     "type": "jogo",
     "durationMinutes": 10,
     "difficulty": "facil",
-    "environment": ["sala", "salao", "externo"],
+    "environment": [
+      "sala",
+      "salao",
+      "externo"
+    ],
     "energyLevel": "agitado",
     "bibleReference": "Salmos 139:14",
     "mainTruth": "Cada pessoa foi criada de forma única em um momento específico — e Deus te conhecia antes de você nascer.",
@@ -112,11 +180,20 @@
     ],
     "prayerSuggestion": "Pai, obrigado por cada aniversário aqui nessa roda. Cada vida foi feita por você. Amém.",
     "memoryVerse": "Salmos 139:14 — 'Eu te louvo porque sou feito de modo assombroso e maravilhoso.'",
-    "safetyNotes": ["Certifique-se de que há espaço suficiente para todos se moverem."],
+    "safetyNotes": [
+      "Certifique-se de que há espaço suficiente para todos se moverem."
+    ],
     "youngerAdaptation": "O professor pergunta o mês de cada criança e ajuda a posicioná-la na fila.",
     "olderAdaptation": "Adicione dificuldade: organizar também por ano (mais novos para mais velhos).",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["linha do tempo", "aniversário", "comunicação", "movimento", "integração", "Salmos 139"],
+    "tags": [
+      "linha do tempo",
+      "aniversário",
+      "comunicação",
+      "movimento",
+      "integração",
+      "Salmos 139"
+    ],
     "status": "aprovado"
   },
   {
@@ -124,18 +201,35 @@
     "title": "Bingo de Apresentação",
     "summary": "Cada criança tem uma cartela com características pessoais — deve circular pela sala e encontrar quem corresponde a cada descrição, conhecendo toda a turma.",
     "category": "quebra-gelo",
-    "themes": ["apresentação", "curiosidade", "integração", "movimento"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["11-20", "21+"],
+    "themes": [
+      "apresentação",
+      "curiosidade",
+      "integração",
+      "movimento"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "11-20",
+      "21+"
+    ],
     "type": "jogo",
     "durationMinutes": 25,
     "difficulty": "facil",
-    "environment": ["sala", "salao"],
+    "environment": [
+      "sala",
+      "salao"
+    ],
     "energyLevel": "agitado",
     "bibleReference": "Provérbios 18:24",
     "mainTruth": "Amizades profundas começam com curiosidade genuína pelo outro.",
     "objective": "Estimular que as crianças se conheçam de forma ativa e divertida em grupos maiores.",
-    "materials": ["cartelas de bingo impressas ou desenhadas à mão", "canetas"],
+    "materials": [
+      "cartelas de bingo impressas ou desenhadas à mão",
+      "canetas"
+    ],
     "preparation": [
       "Crie cartelas 4x4 com características como: 'tem animal de estimação', 'gosta de futebol', 'já viajou de avião', 'tem irmão mais novo', 'sabe tocar instrumento'."
     ],
@@ -154,11 +248,22 @@
     ],
     "prayerSuggestion": "Senhor, obrigado pelas pessoas que colocou em nossa vida. Que possamos cultivar amizades verdadeiras. Amém.",
     "memoryVerse": "Provérbios 18:24 — 'Há amigos que levam à ruína, mas existe amigo mais chegado do que um irmão.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Distribua as cartelas antes de iniciar para não interromper o jogo.",
+      "Canetas: prefira laváveis; use tampas para evitar manchas em roupas.",
+      "Com grupos grandes, certifique-se de que cada criança tem seu próprio espaço."
+    ],
     "youngerAdaptation": "Use cartelas 3x3 com características muito simples. O professor ajuda a ler.",
     "olderAdaptation": "Adicione perguntas mais profundas nas casas: 'já passou por algo difícil', 'tem um sonho grande'.",
     "noMaterialsAlternative": "Façam o bingo oral em círculo: o professor lê a característica e quem se encaixa levanta a mão.",
-    "tags": ["bingo", "apresentação", "integração", "movimento", "grupo grande", "conhecer"],
+    "tags": [
+      "bingo",
+      "apresentação",
+      "integração",
+      "movimento",
+      "grupo grande",
+      "conhecer"
+    ],
     "status": "aprovado"
   },
   {
@@ -166,13 +271,30 @@
     "title": "Escultura Humana",
     "summary": "Em grupos, as crianças formam estátuas com seus corpos representando palavras ou conceitos bíblicos, gerando energia, riso e aprendizado simultâneos.",
     "category": "quebra-gelo",
-    "themes": ["energia", "criatividade", "trabalho em equipe", "expressão corporal"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["6-10", "11-20", "21+"],
+    "themes": [
+      "energia",
+      "criatividade",
+      "trabalho em equipe",
+      "expressão corporal"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20",
+      "21+"
+    ],
     "type": "jogo",
     "durationMinutes": 20,
     "difficulty": "facil",
-    "environment": ["sala", "salao", "externo"],
+    "environment": [
+      "sala",
+      "salao",
+      "externo"
+    ],
     "energyLevel": "agitado",
     "bibleReference": "Salmos 150:6",
     "mainTruth": "Deus nos criou com corpo, movimento e expressão — usá-los para Ele é louvor.",
@@ -194,11 +316,20 @@
     ],
     "prayerSuggestion": "Criador, obrigado por nos dar corpo, voz e movimento. Que usemos tudo para te honrar. Amém.",
     "memoryVerse": "Salmos 150:6 — 'Tudo o que tem fôlego louve ao Senhor! Aleluia!'",
-    "safetyNotes": ["Certifique-se de que não haja objetos no caminho. Não permita empurrar ou levantar outros."],
+    "safetyNotes": [
+      "Certifique-se de que não haja objetos no caminho. Não permita empurrar ou levantar outros."
+    ],
     "youngerAdaptation": "Use palavras com gestos óbvios: alto, pequeno, redondo, voar.",
     "olderAdaptation": "Use conceitos abstratos: graça, eternidade, redenção.",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["escultura", "corpo", "criatividade", "equipe", "energia", "Salmos 150"],
+    "tags": [
+      "escultura",
+      "corpo",
+      "criatividade",
+      "equipe",
+      "energia",
+      "Salmos 150"
+    ],
     "status": "aprovado"
   }
 ]

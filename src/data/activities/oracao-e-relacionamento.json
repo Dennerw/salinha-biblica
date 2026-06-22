@@ -4,19 +4,39 @@
     "title": "Aprendendo a Orar com o Pai Nosso",
     "summary": "Atividade que decompõe o Pai Nosso em partes práticas, ensinando as crianças a estruturar a própria oração usando a oração que Jesus ensinou como modelo.",
     "category": "oracao-e-relacionamento",
-    "themes": ["oração", "Pai Nosso", "como orar", "modelo de oração"],
-    "ageGroups": ["6-8", "9-11"],
-    "groupSize": ["1-5", "6-10", "11-20"],
+    "themes": [
+      "oração",
+      "Pai Nosso",
+      "como orar",
+      "modelo de oração"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20"
+    ],
     "type": "reflexao",
     "durationMinutes": 30,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Mateus 6:9-13",
     "mainTruth": "Jesus nos deu um modelo de oração porque Deus quer que falemos com Ele de forma real e pessoal.",
     "objective": "Capacitar as crianças a orar com suas próprias palavras usando a estrutura do Pai Nosso.",
-    "materials": ["uma folha por criança", "lápis"],
-    "preparation": ["Escreva no quadro as 6 partes: Adoração / Seu reino / Pedidos / Perdão / Proteção / Confiança."],
+    "materials": [
+      "uma folha por criança",
+      "lápis"
+    ],
+    "preparation": [
+      "Escreva no quadro as 6 partes: Adoração / Seu reino / Pedidos / Perdão / Proteção / Confiança."
+    ],
     "steps": [
       "Leia o Pai Nosso lentamente, uma frase por vez.",
       "Para cada frase, explique em linguagem simples o que significa.",
@@ -32,11 +52,20 @@
     ],
     "prayerSuggestion": "Pai, obrigado por querer ouvir a gente. Ensina-nos a orar do jeito certo e nos ajuda a falar com você todos os dias. Amém.",
     "memoryVerse": "Mateus 6:9 — 'Portanto, orem assim: Pai nosso que estás nos céus, santificado seja o teu nome.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Distribua folhas individualmente para preservar a privacidade da escrita.",
+      "Lápis: oriente uso correto, especialmente com crianças de 3–5 anos."
+    ],
     "youngerAdaptation": "Use apenas 3 partes: adorar, pedir e agradecer.",
     "olderAdaptation": "Discuta: há diferença entre decorar a oração e realmente orar? O que é mais importante?",
     "noMaterialsAlternative": "Façam verbalmente: o professor fala o início da frase e as crianças completam com suas palavras.",
-    "tags": ["oração", "Pai Nosso", "Mateus", "como orar", "conversa com Deus"],
+    "tags": [
+      "oração",
+      "Pai Nosso",
+      "Mateus",
+      "como orar",
+      "conversa com Deus"
+    ],
     "status": "aprovado"
   },
   {
@@ -44,19 +73,40 @@
     "title": "Caixa de Gratidão",
     "summary": "As crianças enchem uma caixa com agradecimentos específicos a Deus, praticando gratidão como estilo de vida e descobrindo o que é fácil e difícil de agradecer.",
     "category": "oracao-e-relacionamento",
-    "themes": ["gratidão", "oração", "reconhecimento", "bênçãos"],
-    "ageGroups": ["3-5", "6-8", "9-11"],
-    "groupSize": ["6-10", "11-20"],
+    "themes": [
+      "gratidão",
+      "oração",
+      "reconhecimento",
+      "bênçãos"
+    ],
+    "ageGroups": [
+      "3-5",
+      "6-8",
+      "9-11"
+    ],
+    "groupSize": [
+      "6-10",
+      "11-20"
+    ],
     "type": "arte",
     "durationMinutes": 25,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "1 Tessalonicenses 5:18",
     "mainTruth": "Agradecer a Deus em tudo transforma a forma como vemos a vida.",
     "objective": "Desenvolver o hábito da gratidão e ampliar a percepção das crianças sobre as bênçãos de Deus.",
-    "materials": ["uma caixa decorada", "papéis pequenos coloridos", "canetas"],
-    "preparation": ["Decore uma caixa de sapato com papel colorido. Escreva 'Obrigado, Deus!' na frente."],
+    "materials": [
+      "uma caixa decorada",
+      "papéis pequenos coloridos",
+      "canetas"
+    ],
+    "preparation": [
+      "Decore uma caixa de sapato com papel colorido. Escreva 'Obrigado, Deus!' na frente."
+    ],
     "steps": [
       "Mostre a caixa e explique: hoje vamos enchê-la de agradecimentos para Deus.",
       "Peça que cada criança escreva em 3 papéis: algo simples, algo de pessoa, algo difícil de agradecer.",
@@ -72,11 +122,21 @@
     ],
     "prayerSuggestion": "Pai, obrigado por cada coisa boa e por estar conosco nas difíceis. Ensina-nos a enxergar suas bênçãos todos os dias. Amém.",
     "memoryVerse": "1 Tessalonicenses 5:18 — 'Deem graças em todas as circunstâncias, pois esta é a vontade de Deus.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Verifique que a caixa não tem bordas cortantes ou pregos expostos.",
+      "Papéis pequenos: com crianças de 3–5 anos, supervise para evitar ingestão.",
+      "Canetas: prefira laváveis para crianças pequenas."
+    ],
     "youngerAdaptation": "Peça que desenhem em vez de escrever. Uma criança mais velha pode ajudar a escrever o nome.",
     "olderAdaptation": "Proponha o desafio: durante a semana, anotem 3 agradecimentos por dia e tragam no próximo encontro.",
     "noMaterialsAlternative": "Cada criança fala um agradecimento em voz alta. O professor 'guarda' na mão simbolicamente.",
-    "tags": ["gratidão", "agradecimento", "oração", "bênçãos", "1 Tessalonicenses"],
+    "tags": [
+      "gratidão",
+      "agradecimento",
+      "oração",
+      "bênçãos",
+      "1 Tessalonicenses"
+    ],
     "status": "aprovado"
   },
   {
@@ -84,13 +144,30 @@
     "title": "Oração em Roda — Cada voz importa",
     "summary": "Roda de oração participativa onde cada criança contribui com uma frase, descobrindo que Deus ouve a voz de todos e que orar junto é mais poderoso.",
     "category": "oracao-e-relacionamento",
-    "themes": ["oração coletiva", "comunidade", "cada voz importa", "intercessão"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20", "21+"],
+    "themes": [
+      "oração coletiva",
+      "comunidade",
+      "cada voz importa",
+      "intercessão"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20",
+      "21+"
+    ],
     "type": "oracao",
     "durationMinutes": 15,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Mateus 18:20",
     "mainTruth": "Quando dois ou três se reúnem em nome de Jesus, Ele está no meio deles.",
@@ -116,7 +193,14 @@
     "youngerAdaptation": "Em vez de frase completa, cada um diz apenas uma palavra: amor, família, escola, etc.",
     "olderAdaptation": "Faça dois turnos: primeiro agradecimento, segundo intercessão por alguém fora do grupo.",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["oração", "roda", "coletivo", "intercessão", "comunidade", "Mateus 18"],
+    "tags": [
+      "oração",
+      "roda",
+      "coletivo",
+      "intercessão",
+      "comunidade",
+      "Mateus 18"
+    ],
     "status": "aprovado"
   },
   {
@@ -124,13 +208,28 @@
     "title": "Conversa com Deus — Orar com as próprias palavras",
     "summary": "Tempo guiado de oração pessoal silenciosa ou sussurrada, onde as crianças aprendem que orar é simplesmente conversar com Deus sem fórmulas.",
     "category": "oracao-e-relacionamento",
-    "themes": ["oração pessoal", "intimidade com Deus", "conversa", "silêncio"],
-    "ageGroups": ["9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20"],
+    "themes": [
+      "oração pessoal",
+      "intimidade com Deus",
+      "conversa",
+      "silêncio"
+    ],
+    "ageGroups": [
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20"
+    ],
     "type": "oracao",
     "durationMinutes": 20,
     "difficulty": "medio",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "Salmos 62:8",
     "mainTruth": "Deus quer ouvir o que você realmente sente — não precisa de palavras difíceis.",
@@ -152,11 +251,20 @@
     ],
     "prayerSuggestion": "Pai, obrigado por nos ouvir sempre. Ajuda-nos a aprender a ficar quietos e ouvir também. Queremos te conhecer mais. Amém.",
     "memoryVerse": "Salmos 62:8 — 'Confie nele em todos os momentos, ó povo; abra o seu coração diante dele.'",
-    "safetyNotes": ["Respeite quem não consegue ficar em silêncio — não force."],
+    "safetyNotes": [
+      "Respeite quem não consegue ficar em silêncio — não force."
+    ],
     "youngerAdaptation": "Para crianças menores, substitua pelo sussurro guiado: o professor fala e elas repetem em voz baixa.",
     "olderAdaptation": "Proponha um diário de oração onde escrevem conversas com Deus diariamente.",
     "noMaterialsAlternative": "Esta atividade já não usa materiais.",
-    "tags": ["oração", "silêncio", "intimidade", "conversa", "Salmos", "pessoal"],
+    "tags": [
+      "oração",
+      "silêncio",
+      "intimidade",
+      "conversa",
+      "Salmos",
+      "pessoal"
+    ],
     "status": "aprovado"
   },
   {
@@ -164,19 +272,41 @@
     "title": "Mãos de Intercessão",
     "summary": "Atividade visual onde as crianças traçam suas mãos e em cada dedo escrevem alguém por quem querem orar, aprendendo o que é interceder.",
     "category": "oracao-e-relacionamento",
-    "themes": ["intercessão", "oração pelos outros", "amor ao próximo", "cuidado"],
-    "ageGroups": ["6-8", "9-11", "12-14"],
-    "groupSize": ["1-5", "6-10", "11-20"],
+    "themes": [
+      "intercessão",
+      "oração pelos outros",
+      "amor ao próximo",
+      "cuidado"
+    ],
+    "ageGroups": [
+      "6-8",
+      "9-11",
+      "12-14"
+    ],
+    "groupSize": [
+      "1-5",
+      "6-10",
+      "11-20"
+    ],
     "type": "arte",
     "durationMinutes": 25,
     "difficulty": "facil",
-    "environment": ["sala", "qualquer"],
+    "environment": [
+      "sala",
+      "qualquer"
+    ],
     "energyLevel": "calmo",
     "bibleReference": "1 Timóteo 2:1",
     "mainTruth": "Orar pelos outros é um dos maiores atos de amor que podemos oferecer.",
     "objective": "Introduzir a prática da intercessão de forma prática e pessoal.",
-    "materials": ["folhas A4", "lápis e canetas coloridas"],
-    "preparation": [],
+    "materials": [
+      "folhas A4",
+      "lápis e canetas coloridas"
+    ],
+    "preparation": [
+      "Separe uma folha A4 e canetas coloridas por criança.",
+      "Organize o espaço para que cada criança tenha superfície para escrever."
+    ],
     "steps": [
       "Cada criança coloca a mão sobre a folha e traça o contorno.",
       "Em cada dedo, escrevem o nome de alguém por quem querem orar: família, amigo, escola, mundo, pastor.",
@@ -192,11 +322,21 @@
     ],
     "prayerSuggestion": "Senhor, ajuda-nos a ser pessoas que oram umas pelas outras. Que nossas mãos levem oração ao longo da semana. Amém.",
     "memoryVerse": "1 Timóteo 2:1 — 'Exorto, antes de tudo, que se façam súplicas, orações, intercessões e ações de graças por todos os homens.'",
-    "safetyNotes": [],
+    "safetyNotes": [
+      "Distribua uma folha por criança para evitar aglomeração ao pegar materiais.",
+      "Canetas coloridas: prefira laváveis para crianças menores de 8 anos."
+    ],
     "youngerAdaptation": "O professor ajuda a escrever os nomes nos dedos. Orem oralmente juntos por cada um.",
     "olderAdaptation": "Proponha que durante a semana orem por cada pessoa em momentos específicos do dia.",
     "noMaterialsAlternative": "Cada criança abre a mão e aponta para cada dedo dizendo o nome de quem vai orar. Orem juntos oralmente.",
-    "tags": ["intercessão", "oração", "outros", "amor", "mãos", "família"],
+    "tags": [
+      "intercessão",
+      "oração",
+      "outros",
+      "amor",
+      "mãos",
+      "família"
+    ],
     "status": "aprovado"
   }
 ]
