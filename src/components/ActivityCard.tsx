@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Activity } from '@/types'
 import { Badge } from './Badge'
+import { TheologicalBadge } from './TheologicalBadge'
 
 const typeLabel: Record<Activity['type'], string> = {
   jogo: 'Jogo',
@@ -66,6 +67,7 @@ export function ActivityCard({
             <Badge variant="type">{typeLabel[activity.type]}</Badge>
             <Badge variant="duration">⏱ {activity.durationMinutes} min</Badge>
             <Badge variant="difficulty">{diffLabel[activity.difficulty]}</Badge>
+            <TheologicalBadge theology={activity.theology} review={activity.review} />
           </div>
         </div>
 

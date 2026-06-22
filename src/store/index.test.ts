@@ -80,4 +80,30 @@ describe('useFiltersStore', () => {
     expect(filters.energyLevels).toContain('agitado')
     expect(store.hasActiveFilters()).toBe(true)
   })
+
+  it('toggleTheologicalLevel adiciona e remove', () => {
+    useFiltersStore.getState().toggleTheologicalLevel('essential')
+    expect(useFiltersStore.getState().filters.theologicalLevels).toContain('essential')
+    expect(useFiltersStore.getState().hasActiveFilters()).toBe(true)
+    useFiltersStore.getState().toggleTheologicalLevel('essential')
+    expect(useFiltersStore.getState().filters.theologicalLevels).not.toContain('essential')
+  })
+
+  it('toggleEditorialRisk adiciona e remove', () => {
+    useFiltersStore.getState().toggleEditorialRisk('high')
+    expect(useFiltersStore.getState().filters.editorialRisks).toContain('high')
+    expect(useFiltersStore.getState().hasActiveFilters()).toBe(true)
+    useFiltersStore.getState().toggleEditorialRisk('high')
+    expect(useFiltersStore.getState().filters.editorialRisks).not.toContain('high')
+  })
+
+  it('resetFilters limpa theologicalLevels e editorialRisks', () => {
+    const store = useFiltersStore.getState()
+    store.toggleTheologicalLevel('denominational')
+    store.toggleEditorialRisk('high')
+    store.resetFilters()
+    const { filters } = useFiltersStore.getState()
+    expect(filters.theologicalLevels).toHaveLength(0)
+    expect(filters.editorialRisks).toHaveLength(0)
+  })
 })

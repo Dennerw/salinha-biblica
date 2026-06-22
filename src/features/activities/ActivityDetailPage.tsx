@@ -1,10 +1,12 @@
 import { useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { useActivityById } from '@/hooks/useActivities'
 import { useFavorites, useCompleted, useNote } from '@/hooks/useLocalState'
 import { AppHeader } from '@/components/AppHeader'
 import { Badge } from '@/components/Badge'
 import { EmptyState } from '@/components/EmptyState'
+import { TheologicalBadge } from '@/components/TheologicalBadge'
+import { TheologicalWarning } from '@/components/TheologicalWarning'
 
 const typeLabel: Record<string, string> = {
   jogo: 'Jogo', reflexao: 'Reflexão', arte: 'Arte', teatro: 'Teatro',
@@ -15,17 +17,35 @@ const ageLabel: Record<string, string> = { '3-5': '3–5 anos', '6-8': '6–8 an
 
 export function ActivityDetailPage() {
   const { id } = useParams<{ id: string }>()
+  const navigate = useNavigate()
   const activity = useActivityById(id ?? '')
   const { favorites, toggle: toggleFavorite } = useFavorites()
   const { completed, toggle: toggleCompleted } = useCompleted()
   const { note, save: saveNote } = useNote(id ?? '')
   const [classMode, setClassMode] = useState(false)
+  // Show warning for high-risk content until user explicitly dismisses it
+  const isHighRisk = activity?.theology?.risk === 'high'
+  const [warningDismissed, setWarningDismissed] = useState(false)
+  const showWarning = isHighRisk && !warningDismissed
 
   if (!activity) {
     return (
       <div className="page-container">
         <AppHeader title="Dinâmica" showBack />
         <EmptyState icon="😕" title="Dinâmica não encontrada" description="Essa dinâmica não existe ou foi removida." />
+      </div>
+    )
+  }
+
+  if (showWarning && activity.theology) {
+    return (
+      <div className="page-container">
+        <AppHeader title={activity.title} showBack />
+        <TheologicalWarning
+          theology={activity.theology}
+          onContinue={() => setWarningDismissed(true)}
+          onBack={() => navigate(-1)}
+        />
       </div>
     )
   }
@@ -82,6 +102,7 @@ export function ActivityDetailPage() {
           {activity.ageGroups.map((age) => (
             <Badge key={age} variant="age">{ageLabel[age]}</Badge>
           ))}
+          <TheologicalBadge theology={activity.theology} review={activity.review} />
         </div>
 
         {/* Action buttons */}

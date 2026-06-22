@@ -1,5 +1,5 @@
 import { useFiltersStore } from '@/store'
-import type { AgeGroup, ActivityType, Environment, EnergyLevel } from '@/types'
+import type { AgeGroup, ActivityType, Environment, EnergyLevel, TheologicalLevel, EditorialRisk } from '@/types'
 
 const ageOptions: { value: AgeGroup; label: string }[] = [
   { value: '3-5', label: '3–5 anos' },
@@ -37,6 +37,18 @@ const envOptions: { value: Environment; label: string }[] = [
   { value: 'externo', label: '🌳 Externo' },
 ]
 
+const theologicalOptions: { value: TheologicalLevel; label: string }[] = [
+  { value: 'essential', label: '✓ Conteúdo essencial' },
+  { value: 'interpretive', label: '↺ Requer adaptação' },
+  { value: 'denominational', label: '⚑ Tema denominacional' },
+]
+
+const riskOptions: { value: EditorialRisk; label: string }[] = [
+  { value: 'low', label: '🟢 Risco baixo' },
+  { value: 'medium', label: '🟡 Risco médio' },
+  { value: 'high', label: '🔴 Risco alto' },
+]
+
 export function FilterBar() {
   const {
     filters,
@@ -46,6 +58,8 @@ export function FilterBar() {
     toggleEnvironment,
     toggleEnergyLevel,
     toggleNoMaterials,
+    toggleTheologicalLevel,
+    toggleEditorialRisk,
     resetFilters,
     hasActiveFilters,
   } = useFiltersStore()
@@ -110,6 +124,31 @@ export function FilterBar() {
         <button className={chip(filters.noMaterialsOnly)} onClick={toggleNoMaterials}>
           📦 Sem materiais
         </button>
+      </div>
+
+      {/* Row: theological level */}
+      <div>
+        <p className="text-[0.65rem] font-bold text-slate-400 uppercase tracking-widest mb-1.5 px-0.5">Classificação teológica</p>
+        <div className="flex gap-1.5 flex-wrap">
+          {theologicalOptions.map((o) => (
+            <button
+              key={o.value}
+              className={chip(filters.theologicalLevels.includes(o.value))}
+              onClick={() => toggleTheologicalLevel(o.value)}
+            >
+              {o.label}
+            </button>
+          ))}
+          {riskOptions.map((o) => (
+            <button
+              key={o.value}
+              className={chip(filters.editorialRisks.includes(o.value))}
+              onClick={() => toggleEditorialRisk(o.value)}
+            >
+              {o.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Reset */}

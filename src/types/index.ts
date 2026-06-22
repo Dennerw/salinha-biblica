@@ -136,4 +136,6 @@ export interface Filters {
   environments: Environment[]
   energyLevels: EnergyLevel[]
   noMaterialsOnly: boolean
+  theologicalLevels: TheologicalLevel[]
+  editorialRisks: EditorialRisk[]
 }

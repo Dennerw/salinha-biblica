@@ -40,6 +40,18 @@ export function useSearch(activities: Activity[], filters: Filters): Activity[] 
       // No materials only
       if (filters.noMaterialsOnly && a.materials.length > 0) return false
 
+      // Theological level filter
+      if (filters.theologicalLevels.length > 0) {
+        const level = a.theology?.level ?? 'essential'
+        if (!filters.theologicalLevels.includes(level)) return false
+      }
+
+      // Editorial risk filter
+      if (filters.editorialRisks.length > 0) {
+        const risk = a.theology?.risk ?? 'low'
+        if (!filters.editorialRisks.includes(risk)) return false
+      }
+
       return true
     })
   }, [activities, filters])

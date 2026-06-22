@@ -9,6 +9,8 @@ const DEFAULT_FILTERS: Filters = {
   environments: [],
   energyLevels: [],
   noMaterialsOnly: false,
+  theologicalLevels: [],
+  editorialRisks: [],
 }
 
 const mockActivities: Activity[] = [

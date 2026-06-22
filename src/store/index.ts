@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import type { Filters, AgeGroup, ActivityType, Environment, EnergyLevel } from '@/types'
+import type { Filters, AgeGroup, ActivityType, Environment, EnergyLevel, TheologicalLevel, EditorialRisk } from '@/types'
 
 const DEFAULT_FILTERS: Filters = {
   search: '',
@@ -9,6 +9,8 @@ const DEFAULT_FILTERS: Filters = {
   environments: [],
   energyLevels: [],
   noMaterialsOnly: false,
+  theologicalLevels: [],
+  editorialRisks: [],
 }
 
 interface FiltersStore {
@@ -20,6 +22,8 @@ interface FiltersStore {
   toggleEnvironment: (env: Environment) => void
   toggleEnergyLevel: (level: EnergyLevel) => void
   toggleNoMaterials: () => void
+  toggleTheologicalLevel: (level: TheologicalLevel) => void
+  toggleEditorialRisk: (risk: EditorialRisk) => void
   resetFilters: () => void
   hasActiveFilters: () => boolean
 }
@@ -74,6 +78,26 @@ export const useFiltersStore = create<FiltersStore>((set, get) => ({
   toggleNoMaterials: () =>
     set((s) => ({ filters: { ...s.filters, noMaterialsOnly: !s.filters.noMaterialsOnly } })),
 
+  toggleTheologicalLevel: (level) =>
+    set((s) => ({
+      filters: {
+        ...s.filters,
+        theologicalLevels: s.filters.theologicalLevels.includes(level)
+          ? s.filters.theologicalLevels.filter((l) => l !== level)
+          : [...s.filters.theologicalLevels, level],
+      },
+    })),
+
+  toggleEditorialRisk: (risk) =>
+    set((s) => ({
+      filters: {
+        ...s.filters,
+        editorialRisks: s.filters.editorialRisks.includes(risk)
+          ? s.filters.editorialRisks.filter((r) => r !== risk)
+          : [...s.filters.editorialRisks, risk],
+      },
+    })),
+
   resetFilters: () => set({ filters: DEFAULT_FILTERS }),
 
   hasActiveFilters: () => {
@@ -85,7 +109,9 @@ export const useFiltersStore = create<FiltersStore>((set, get) => ({
       filters.maxDuration !== null ||
       filters.environments.length > 0 ||
       filters.energyLevels.length > 0 ||
-      filters.noMaterialsOnly
+      filters.noMaterialsOnly ||
+      filters.theologicalLevels.length > 0 ||
+      filters.editorialRisks.length > 0
     )
   },
 }))
