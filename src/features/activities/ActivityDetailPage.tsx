@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useActivityById } from '@/hooks/useActivities'
 import { useFavorites, useCompleted, useNote } from '@/hooks/useLocalState'
+import { useChurchProfile } from '@/hooks/useChurchProfile'
 import { AppHeader } from '@/components/AppHeader'
 import { Badge } from '@/components/Badge'
 import { EmptyState } from '@/components/EmptyState'
@@ -22,11 +23,13 @@ export function ActivityDetailPage() {
   const { favorites, toggle: toggleFavorite } = useFavorites()
   const { completed, toggle: toggleCompleted } = useCompleted()
   const { note, save: saveNote } = useNote(id ?? '')
+  const { profile } = useChurchProfile()
   const [classMode, setClassMode] = useState(false)
-  // Show warning for high-risk content until user explicitly dismisses it
+  // Show warning for high-risk content unless locally approved or already dismissed
   const isHighRisk = activity?.theology?.risk === 'high'
+  const isLocallyApproved = id ? profile.approvedActivities.includes(id) : false
   const [warningDismissed, setWarningDismissed] = useState(false)
-  const showWarning = isHighRisk && !warningDismissed
+  const showWarning = isHighRisk && !isLocallyApproved && !warningDismissed
 
   if (!activity) {
     return (
@@ -102,7 +105,7 @@ export function ActivityDetailPage() {
           {activity.ageGroups.map((age) => (
             <Badge key={age} variant="age">{ageLabel[age]}</Badge>
           ))}
-          <TheologicalBadge theology={activity.theology} review={activity.review} />
+          <TheologicalBadge theology={activity.theology} review={activity.review} approvedLocally={isLocallyApproved} />
         </div>
 
         {/* Action buttons */}

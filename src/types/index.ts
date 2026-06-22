@@ -128,6 +128,20 @@ export interface AppSettings {
   bibleVersion: string
 }
 
+export type ChurchConfigMode = 'basic' | 'custom' | 'pastoral_review'
+
+export interface ChurchProfile {
+  ministryName: string
+  churchName: string
+  bibleVersion: string
+  preferredAgeGroups: AgeGroup[]
+  configMode: ChurchConfigMode
+  enabledDenominationalModules: string[]
+  customTerms: Record<string, string>
+  pastoralApproverName: string
+  approvedActivities: string[]
+}
+
 export interface Filters {
   search: string
   ageGroups: AgeGroup[]

@@ -3,6 +3,7 @@ import { AppHeader } from '@/components/AppHeader'
 import { settingsDb, backupDb } from '@/db'
 import { exportBackup, importBackup, downloadJson } from '@/utils/backup'
 import type { AppSettings } from '@/types'
+import { ChurchProfileSection } from './ChurchProfileSection'
 
 const defaultSettings: AppSettings = {
   teacherName: '',
@@ -143,6 +144,9 @@ export function SettingsPage() {
             <p className="mt-2 text-xs text-red-500 leading-relaxed">{importError}</p>
           )}
         </div>
+
+        {/* Church profile */}
+        <ChurchProfileSection />
 
         {/* App info */}
         <div className="card p-5 text-center">

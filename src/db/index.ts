@@ -1,5 +1,5 @@
 import Dexie, { type Table } from 'dexie'
-import type { LessonPlan, AppSettings } from '@/types'
+import type { LessonPlan, AppSettings, ChurchProfile } from '@/types'
 
 interface FavoriteRecord {
   id: string
@@ -22,12 +22,19 @@ interface SettingRecord {
   value: unknown
 }
 
+interface ChurchProfileRecord {
+  id: 'church'
+  profile: ChurchProfile
+  updatedAt: Date
+}
+
 class SalinhaDB extends Dexie {
   favorites!: Table<FavoriteRecord, string>
   completed!: Table<CompletedRecord, string>
   notes!: Table<NoteRecord, string>
   lessons!: Table<LessonPlan, string>
   settings!: Table<SettingRecord, string>
+  churchProfile!: Table<ChurchProfileRecord, string>
 
   constructor() {
     super('salinha-biblica')
@@ -37,6 +44,14 @@ class SalinhaDB extends Dexie {
       notes: 'id, updatedAt',
       lessons: 'id, createdAt, completedAt',
       settings: 'key',
+    })
+    this.version(2).stores({
+      favorites: 'id, addedAt',
+      completed: 'id, completedAt',
+      notes: 'id, updatedAt',
+      lessons: 'id, createdAt, completedAt',
+      settings: 'key',
+      churchProfile: 'id',
     })
   }
 }
@@ -137,6 +152,54 @@ export const settingsDb = {
         await db.settings.put({ key, value })
       }
     })
+  },
+}
+
+// --- Church Profile ---
+export const DEFAULT_CHURCH_PROFILE: ChurchProfile = {
+  ministryName: '',
+  churchName: '',
+  bibleVersion: 'NVI',
+  preferredAgeGroups: [],
+  configMode: 'basic',
+  enabledDenominationalModules: [],
+  customTerms: {},
+  pastoralApproverName: '',
+  approvedActivities: [],
+}
+
+export const churchProfileDb = {
+  async get(): Promise<ChurchProfile> {
+    const record = await db.churchProfile.get('church')
+    return record?.profile ?? { ...DEFAULT_CHURCH_PROFILE }
+  },
+  async save(profile: ChurchProfile): Promise<void> {
+    await db.churchProfile.put({ id: 'church', profile, updatedAt: new Date() })
+  },
+  async approveActivity(id: string): Promise<void> {
+    const profile = await churchProfileDb.get()
+    if (!profile.approvedActivities.includes(id)) {
+      profile.approvedActivities = [...profile.approvedActivities, id]
+      await churchProfileDb.save(profile)
+    }
+  },
+  async revokeActivity(id: string): Promise<void> {
+    const profile = await churchProfileDb.get()
+    profile.approvedActivities = profile.approvedActivities.filter((a) => a !== id)
+    await churchProfileDb.save(profile)
+  },
+  async isApproved(id: string): Promise<boolean> {
+    const profile = await churchProfileDb.get()
+    return profile.approvedActivities.includes(id)
+  },
+  async delete(): Promise<void> {
+    await db.churchProfile.delete('church')
+  },
+  async export(): Promise<ChurchProfile> {
+    return churchProfileDb.get()
+  },
+  async import(profile: ChurchProfile): Promise<void> {
+    await churchProfileDb.save(profile)
   },
 }
 
