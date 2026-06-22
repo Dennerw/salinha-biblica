@@ -6,7 +6,11 @@ import { dirname, resolve } from 'path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
+// GitHub Pages deploys under /salinha-biblica/; Vercel and local use /
+const base = process.env.GITHUB_ACTIONS === 'true' ? '/salinha-biblica/' : '/'
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
     VitePWA({
@@ -29,8 +33,8 @@ export default defineConfig({
         display: 'standalone',
         orientation: 'portrait',
         lang: 'pt-BR',
-        start_url: '/',
-        scope: '/',
+        start_url: base,
+        scope: base,
         categories: ['education', 'lifestyle'],
         icons: [
           { src: 'pwa-64x64.png', sizes: '64x64', type: 'image/png' },
