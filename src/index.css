@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    background-color: #f0f9ff;
+    color: #1e293b;
+  }
+
+  #root {
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@layer components {
+  .page-container {
+    @apply max-w-lg mx-auto w-full flex flex-col flex-1 pb-20;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-card border border-primary-100;
+  }
+
+  .btn-primary {
+    @apply bg-primary-500 text-white font-semibold px-5 py-3 rounded-xl
+           active:scale-95 transition-transform disabled:opacity-50;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-primary-500 text-primary-600 font-semibold px-5 py-3 rounded-xl
+           active:scale-95 transition-transform;
+  }
+
+  .filter-chip {
+    @apply px-3 py-1.5 rounded-full text-xs font-semibold border border-slate-200
+           bg-white text-slate-500 cursor-pointer active:scale-95 transition-all
+           whitespace-nowrap select-none;
+  }
+
+  .filter-chip-active {
+    @apply bg-primary-500 text-white border-primary-500;
+  }
+
+  .input-field {
+    @apply w-full rounded-xl border-2 border-slate-200 px-3 py-2.5 text-sm text-slate-700
+           outline-none focus:border-primary-400 transition-colors bg-white;
+  }
+
+  .label-xs {
+    @apply text-[0.65rem] font-bold text-slate-400 uppercase tracking-wide;
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}

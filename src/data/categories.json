@@ -1,0 +1,58 @@
+[
+  {
+    "id": "historias-da-biblia",
+    "name": "Histórias da Bíblia",
+    "icon": "📖",
+    "color": "#F59E0B",
+    "description": "Grandes narrativas do Antigo e Novo Testamento contadas de forma viva e participativa."
+  },
+  {
+    "id": "jesus-e-o-evangelho",
+    "name": "Jesus e o Evangelho",
+    "icon": "✝️",
+    "color": "#EF4444",
+    "description": "A vida, os milagres, as parábolas e a mensagem central de Jesus Cristo."
+  },
+  {
+    "id": "oracao-e-relacionamento",
+    "name": "Oração e Relacionamento com Deus",
+    "icon": "🙏",
+    "color": "#8B5CF6",
+    "description": "Aprender a orar, ouvir e confiar em Deus no dia a dia."
+  },
+  {
+    "id": "carater-cristao",
+    "name": "Caráter Cristão",
+    "icon": "⭐",
+    "color": "#3B82F6",
+    "description": "Virtudes como amor, perdão, honestidade, coragem e generosidade."
+  },
+  {
+    "id": "fruto-do-espirito",
+    "name": "Fruto do Espírito",
+    "icon": "🍎",
+    "color": "#22C55E",
+    "description": "As nove características do fruto do Espírito Santo de Gálatas 5."
+  },
+  {
+    "id": "igreja-e-comunhao",
+    "name": "Igreja, Amizade e Comunhão",
+    "icon": "🤝",
+    "color": "#06B6D4",
+    "description": "Viver em comunidade, servir, acolher e trabalhar em equipe."
+  },
+  {
+    "id": "missoes-e-evangelismo",
+    "name": "Missões e Evangelismo",
+    "icon": "🌍",
+    "color": "#F97316",
+    "description": "A Grande Comissão, os povos do mundo e como compartilhar a fé."
+  },
+  {
+    "id": "quebra-gelo",
+    "name": "Quebra-gelo e Integração",
+    "icon": "🎯",
+    "color": "#EC4899",
+    "description": "Atividades para apresentação, integração e energia no início do encontro."
+  }
+]
