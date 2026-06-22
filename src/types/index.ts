@@ -105,6 +105,8 @@ export interface LessonStep {
   label: string
   durationMinutes: number
   notes: string
+  reviewVersion?: number       // version of LocalReviewRecord at time of planning
+  theologicalRisk?: string     // snapshot of theology.risk for the selected activity
 }
 
 export interface LessonPlan {

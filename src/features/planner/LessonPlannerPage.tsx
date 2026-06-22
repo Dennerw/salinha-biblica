@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useActivities } from '@/hooks/useActivities'
+import { useSafePlanner } from '@/hooks/useSafePlanner'
 import { lessonsDb } from '@/db'
 import { AppHeader } from '@/components/AppHeader'
 import type { AgeGroup, GroupSize, Environment, LessonPlan, LessonStep } from '@/types'
@@ -19,8 +19,9 @@ function generateId() {
 }
 
 export function LessonPlannerPage() {
-  const { activities } = useActivities()
   const navigate = useNavigate()
+  const { safeActivities, excludedCount, isDenominational, getReviewVersion, loading } =
+    useSafePlanner()
 
   const [form, setForm] = useState({
     title: '',
@@ -31,26 +32,35 @@ export function LessonPlannerPage() {
     environment: 'sala' as Environment,
   })
   const [steps, setSteps] = useState<LessonStep[] | null>(null)
+  const [mainActivityId, setMainActivityId] = useState<string | null>(null)
   const [observations, setObservations] = useState('')
   const [saved, setSaved] = useState(false)
 
   function buildPlan() {
-    // Find a matching activity for main step
-    const main = activities.find(
+    // Select a main activity from safe-only pool
+    const main = safeActivities.find(
       (a) =>
         a.ageGroups.includes(form.ageGroup) &&
         a.environment.includes(form.environment) &&
         a.durationMinutes <= Math.floor(form.totalDuration * 0.5) &&
-        (!form.theme || a.themes.some((t) => t.toLowerCase().includes(form.theme.toLowerCase())) ||
+        (!form.theme ||
+          a.themes.some((t) => t.toLowerCase().includes(form.theme.toLowerCase())) ||
           a.tags.some((t) => t.toLowerCase().includes(form.theme.toLowerCase()))),
     )
 
-    const generatedSteps: LessonStep[] = STEP_LABELS.map((s, i) => ({
-      activityId: i === 2 && main ? main.id : null,
-      label: i === 2 && main ? `${s.label}: ${main.title}` : s.label,
-      durationMinutes: s.duration,
-      notes: '',
-    }))
+    setMainActivityId(main?.id ?? null)
+
+    const generatedSteps: LessonStep[] = STEP_LABELS.map((s, i) => {
+      const isMainStep = i === 2 && !!main
+      return {
+        activityId: isMainStep ? main!.id : null,
+        label: isMainStep ? `${s.label}: ${main!.title}` : s.label,
+        durationMinutes: s.duration,
+        notes: '',
+        reviewVersion: isMainStep ? getReviewVersion(main!.id) : undefined,
+        theologicalRisk: isMainStep ? (main!.theology?.risk ?? 'low') : undefined,
+      }
+    })
     setSteps(generatedSteps)
   }
 
@@ -75,25 +85,54 @@ export function LessonPlannerPage() {
   }
 
   const totalMin = steps ? steps.reduce((s, st) => s + st.durationMinutes, 0) : 0
+  const mainActivity = mainActivityId ? safeActivities.find((a) => a.id === mainActivityId) : null
+  const showDenominationalWarning = mainActivity ? isDenominational(mainActivity) : false
 
   return (
     <div className="page-container">
       <AppHeader title="Montar Encontro" subtitle="Roteiro sugerido automaticamente" />
 
       <div className="flex flex-col gap-4 px-4 pt-5 pb-10">
+
+        {/* Safety notice — shown when high-risk activities were excluded */}
+        {!loading && excludedCount > 0 && (
+          <div className="flex gap-3 bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3"
+               role="note" aria-label="Aviso de segurança de conteúdo">
+            <span className="text-lg flex-shrink-0" aria-hidden>⚑</span>
+            <div>
+              <p className="text-xs font-bold text-amber-700">
+                {excludedCount} {excludedCount === 1 ? 'dinâmica excluída' : 'dinâmicas excluídas'} por risco teológico alto
+              </p>
+              <p className="text-xs text-amber-600 mt-0.5 leading-relaxed">
+                Conteúdo de risco alto não aprovado localmente não aparece nos roteiros sugeridos.
+                Aprove-o no Painel de Revisão (Configurações) para incluir.
+              </p>
+            </div>
+          </div>
+        )}
+
         {/* Form */}
         <div className="card p-4 flex flex-col gap-3">
           <h2 className="font-bold text-slate-700 text-sm">Detalhes do encontro</h2>
 
           <div>
             <label className="label-xs">Título (opcional)</label>
-            <input type="text" value={form.title} onChange={(e) => setForm((f) => ({ ...f, title: e.target.value }))}
-              placeholder="Ex.: Encontro de Páscoa" className="input-field" />
+            <input
+              type="text"
+              value={form.title}
+              onChange={(e) => setForm((f) => ({ ...f, title: e.target.value }))}
+              placeholder="Ex.: Encontro de Páscoa"
+              className="input-field"
+            />
           </div>
           <div className="grid grid-cols-2 gap-3">
             <div>
               <label className="label-xs">Faixa etária</label>
-              <select value={form.ageGroup} onChange={(e) => setForm((f) => ({ ...f, ageGroup: e.target.value as AgeGroup }))} className="input-field">
+              <select
+                value={form.ageGroup}
+                onChange={(e) => setForm((f) => ({ ...f, ageGroup: e.target.value as AgeGroup }))}
+                className="input-field"
+              >
                 <option value="3-5">3–5 anos</option>
                 <option value="6-8">6–8 anos</option>
                 <option value="9-11">9–11 anos</option>
@@ -102,7 +141,11 @@ export function LessonPlannerPage() {
             </div>
             <div>
               <label className="label-xs">Quantidade</label>
-              <select value={form.groupSize} onChange={(e) => setForm((f) => ({ ...f, groupSize: e.target.value as GroupSize }))} className="input-field">
+              <select
+                value={form.groupSize}
+                onChange={(e) => setForm((f) => ({ ...f, groupSize: e.target.value as GroupSize }))}
+                className="input-field"
+              >
                 <option value="1-5">1–5 crianças</option>
                 <option value="6-10">6–10 crianças</option>
                 <option value="11-20">11–20 crianças</option>
@@ -113,12 +156,21 @@ export function LessonPlannerPage() {
           <div className="grid grid-cols-2 gap-3">
             <div>
               <label className="label-xs">Tema (opcional)</label>
-              <input type="text" value={form.theme} onChange={(e) => setForm((f) => ({ ...f, theme: e.target.value }))}
-                placeholder="Ex.: perdão, Davi..." className="input-field" />
+              <input
+                type="text"
+                value={form.theme}
+                onChange={(e) => setForm((f) => ({ ...f, theme: e.target.value }))}
+                placeholder="Ex.: perdão, Davi..."
+                className="input-field"
+              />
             </div>
             <div>
               <label className="label-xs">Duração total</label>
-              <select value={form.totalDuration} onChange={(e) => setForm((f) => ({ ...f, totalDuration: Number(e.target.value) }))} className="input-field">
+              <select
+                value={form.totalDuration}
+                onChange={(e) => setForm((f) => ({ ...f, totalDuration: Number(e.target.value) }))}
+                className="input-field"
+              >
                 <option value={30}>30 minutos</option>
                 <option value={45}>45 minutos</option>
                 <option value={60}>60 minutos</option>
@@ -128,7 +180,11 @@ export function LessonPlannerPage() {
           </div>
           <div>
             <label className="label-xs">Ambiente</label>
-            <select value={form.environment} onChange={(e) => setForm((f) => ({ ...f, environment: e.target.value as Environment }))} className="input-field">
+            <select
+              value={form.environment}
+              onChange={(e) => setForm((f) => ({ ...f, environment: e.target.value as Environment }))}
+              className="input-field"
+            >
               <option value="sala">Sala pequena</option>
               <option value="salao">Salão</option>
               <option value="externo">Área externa</option>
@@ -136,7 +192,11 @@ export function LessonPlannerPage() {
             </select>
           </div>
 
-          <button onClick={buildPlan} className="btn-primary text-sm mt-1">
+          <button
+            onClick={buildPlan}
+            disabled={loading}
+            className="btn-primary text-sm mt-1 disabled:opacity-50"
+          >
             🗓️ Gerar roteiro
           </button>
         </div>
@@ -144,6 +204,27 @@ export function LessonPlannerPage() {
         {/* Generated steps */}
         {steps && (
           <>
+            {/* Denominational content warning */}
+            {showDenominationalWarning && (
+              <div
+                className="flex gap-3 bg-blue-50 border border-blue-200 rounded-2xl px-4 py-3"
+                role="note"
+                aria-label="Aviso de conteúdo denominacional"
+              >
+                <span className="text-lg flex-shrink-0" aria-hidden>📋</span>
+                <div>
+                  <p className="text-xs font-bold text-blue-700">Conteúdo denominacional selecionado</p>
+                  <p className="text-xs text-blue-600 mt-0.5 leading-relaxed">
+                    A dinâmica principal contém elementos com interpretações específicas por
+                    denominação. Revise com o responsável pastoral antes de usar.
+                    {mainActivity?.theology?.doctrinalNotice && (
+                      <span className="block mt-1 italic">"{mainActivity.theology.doctrinalNotice}"</span>
+                    )}
+                  </p>
+                </div>
+              </div>
+            )}
+
             <div className="card p-4">
               <div className="flex items-center justify-between mb-3">
                 <h2 className="font-bold text-slate-700 text-sm">Roteiro sugerido</h2>
@@ -154,13 +235,34 @@ export function LessonPlannerPage() {
               <ol className="space-y-2.5">
                 {steps.map((step, i) => (
                   <li key={i} className="flex items-start gap-3 bg-slate-50 rounded-xl px-3 py-3">
-                    <span className="w-6 h-6 rounded-lg bg-primary-100 text-primary-600 text-xs font-extrabold
-                                     flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span
+                      className="w-6 h-6 rounded-lg bg-primary-100 text-primary-600 text-xs font-extrabold
+                                 flex items-center justify-center flex-shrink-0 mt-0.5"
+                    >
                       {i + 1}
                     </span>
                     <div className="flex-1">
                       <p className="text-sm font-semibold text-slate-700">{step.label}</p>
-                      <p className="text-xs text-slate-400 mt-0.5">{step.durationMinutes} min</p>
+                      <div className="flex items-center gap-2 mt-0.5">
+                        <p className="text-xs text-slate-400">{step.durationMinutes} min</p>
+                        {step.reviewVersion !== undefined && (
+                          <span
+                            className="text-[0.6rem] font-bold text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded"
+                            aria-label={`Versão de revisão ${step.reviewVersion}`}
+                            title={`Revisão v${step.reviewVersion} registrada no momento do planejamento`}
+                          >
+                            rev v{step.reviewVersion}
+                          </span>
+                        )}
+                        {step.theologicalRisk === 'denominational' && (
+                          <span
+                            className="text-[0.6rem] font-bold text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded"
+                            aria-label="Conteúdo denominacional"
+                          >
+                            denominacional
+                          </span>
+                        )}
+                      </div>
                     </div>
                   </li>
                 ))}
