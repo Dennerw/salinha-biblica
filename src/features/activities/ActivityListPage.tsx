@@ -34,6 +34,12 @@ export function ActivityListPage() {
     if (q) setSearch(q)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
+  // Category name for header title when drilling in from home
+  const { categories } = useActivities()
+  const categoryLabel = categoryParam
+    ? (categories.find((c) => c.id === categoryParam)?.name ?? 'Explorar')
+    : 'Explorar'
+
   const subtitle = categoryParam
     ? `${filtered.length} de ${activitiesToShow.length} dinâmicas`
     : `${filtered.length} de ${activities.length} dinâmicas`
@@ -41,8 +47,9 @@ export function ActivityListPage() {
   return (
     <div className="page-container">
       <AppHeader
-        title="Explorar"
+        title={categoryLabel}
         subtitle={subtitle}
+        showBack={!!categoryParam}
         action={
           <button
             onClick={() => setShowFilters((v) => !v)}
