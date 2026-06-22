@@ -1,5 +1,6 @@
 import Dexie, { type Table } from 'dexie'
-import type { LessonPlan, AppSettings, ChurchProfile } from '@/types'
+import type { LessonPlan, AppSettings, ChurchProfile, ReviewStatus } from '@/types'
+import type { ReviewHistoryEntry, TheologicalSnapshot } from '@/utils/review'
 
 interface FavoriteRecord {
   id: string
@@ -28,6 +29,19 @@ interface ChurchProfileRecord {
   updatedAt: Date
 }
 
+export interface LocalReviewRecord {
+  activityId: string
+  status: ReviewStatus
+  version: number
+  biblicalReviewer?: string
+  pedagogicalReviewer?: string
+  pastoralApprover?: string
+  reviewedAt: string          // ISO 8601
+  notes?: string
+  theologicalSnapshot?: TheologicalSnapshot
+  history: ReviewHistoryEntry[]
+}
+
 class SalinhaDB extends Dexie {
   favorites!: Table<FavoriteRecord, string>
   completed!: Table<CompletedRecord, string>
@@ -35,6 +49,7 @@ class SalinhaDB extends Dexie {
   lessons!: Table<LessonPlan, string>
   settings!: Table<SettingRecord, string>
   churchProfile!: Table<ChurchProfileRecord, string>
+  localReview!: Table<LocalReviewRecord, string>
 
   constructor() {
     super('salinha-biblica')
@@ -52,6 +67,15 @@ class SalinhaDB extends Dexie {
       lessons: 'id, createdAt, completedAt',
       settings: 'key',
       churchProfile: 'id',
+    })
+    this.version(3).stores({
+      favorites: 'id, addedAt',
+      completed: 'id, completedAt',
+      notes: 'id, updatedAt',
+      lessons: 'id, createdAt, completedAt',
+      settings: 'key',
+      churchProfile: 'id',
+      localReview: 'activityId, status',
     })
   }
 }
@@ -200,6 +224,84 @@ export const churchProfileDb = {
   },
   async import(profile: ChurchProfile): Promise<void> {
     await churchProfileDb.save(profile)
+  },
+}
+
+// --- Local Review ---
+export const localReviewDb = {
+  async get(activityId: string): Promise<LocalReviewRecord | undefined> {
+    return db.localReview.get(activityId)
+  },
+
+  async save(record: LocalReviewRecord): Promise<void> {
+    await db.localReview.put(record)
+  },
+
+  async transition(
+    activityId: string,
+    to: ReviewStatus,
+    opts: { reviewer?: string; notes?: string; snapshot?: TheologicalSnapshot } = {},
+  ): Promise<LocalReviewRecord> {
+    const existing = await localReviewDb.get(activityId)
+    const from: ReviewStatus = existing?.status ?? 'draft'
+    const now = new Date().toISOString()
+
+    const historyEntry: ReviewHistoryEntry = {
+      from,
+      to,
+      reviewer: opts.reviewer,
+      at: now,
+      notes: opts.notes,
+    }
+
+    const updated: LocalReviewRecord = {
+      activityId,
+      status: to,
+      version: (existing?.version ?? 0) + 1,
+      biblicalReviewer: to === 'biblical_review' ? (opts.reviewer ?? existing?.biblicalReviewer) : existing?.biblicalReviewer,
+      pedagogicalReviewer: to === 'pedagogical_review' ? (opts.reviewer ?? existing?.pedagogicalReviewer) : existing?.pedagogicalReviewer,
+      pastoralApprover: to === 'pastoral_review' || to === 'approved' ? (opts.reviewer ?? existing?.pastoralApprover) : existing?.pastoralApprover,
+      reviewedAt: now,
+      notes: opts.notes ?? existing?.notes,
+      theologicalSnapshot: opts.snapshot ?? existing?.theologicalSnapshot,
+      history: [...(existing?.history ?? []), historyEntry],
+    }
+
+    await localReviewDb.save(updated)
+    return updated
+  },
+
+  // Invalidate approval if theological fields changed
+  async invalidateIfModified(activityId: string, currentSnapshot: TheologicalSnapshot): Promise<boolean> {
+    const { isTheologicallyModified } = await import('@/utils/review')
+    const record = await localReviewDb.get(activityId)
+    if (!record || record.status !== 'approved') return false
+    if (!record.theologicalSnapshot) return false
+
+    if (isTheologicallyModified(record.theologicalSnapshot, currentSnapshot)) {
+      const historyEntry: ReviewHistoryEntry = {
+        from: 'approved',
+        to: 'biblical_review',
+        at: new Date().toISOString(),
+        notes: 'Aprovação invalidada por alteração em campos teológicos.',
+      }
+      await localReviewDb.save({
+        ...record,
+        status: 'biblical_review',
+        version: record.version + 1,
+        history: [...record.history, historyEntry],
+      })
+      return true
+    }
+    return false
+  },
+
+  async getAll(): Promise<LocalReviewRecord[]> {
+    return db.localReview.toArray()
+  },
+
+  async delete(activityId: string): Promise<void> {
+    await db.localReview.delete(activityId)
   },
 }
 

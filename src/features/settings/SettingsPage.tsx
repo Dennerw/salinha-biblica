@@ -4,6 +4,7 @@ import { settingsDb, backupDb } from '@/db'
 import { exportBackup, importBackup, downloadJson } from '@/utils/backup'
 import type { AppSettings } from '@/types'
 import { ChurchProfileSection } from './ChurchProfileSection'
+import { ReviewPanel } from './ReviewPanel'
 
 const defaultSettings: AppSettings = {
   teacherName: '',
@@ -147,6 +148,9 @@ export function SettingsPage() {
 
         {/* Church profile */}
         <ChurchProfileSection />
+
+        {/* Review panel */}
+        <ReviewPanel />
 
         {/* App info */}
         <div className="card p-5 text-center">
