@@ -6,8 +6,10 @@ import { dirname, resolve } from 'path'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
-// GitHub Pages deploys under /salinha-biblica/; Vercel and local use /
-const base = process.env.GITHUB_ACTIONS === 'true' ? '/salinha-biblica/' : '/'
+// Priority: VITE_APP_BASE env > GitHub Actions default > local '/'
+const base =
+  process.env.VITE_APP_BASE ??
+  (process.env.GITHUB_ACTIONS === 'true' ? '/salinha-biblica/' : '/')
 
 export default defineConfig({
   base,
