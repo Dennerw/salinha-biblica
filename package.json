@@ -13,7 +13,8 @@
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
     "test:e2e": "playwright test",
-    "generate-icons": "pwa-assets-generator --config pwa-assets.config.ts"
+    "generate-icons": "pwa-assets-generator --config pwa-assets.config.ts",
+    "audit": "node scripts/audit-activities.mjs"
   },
   "dependencies": {
     "dexie": "^4.4.4",
