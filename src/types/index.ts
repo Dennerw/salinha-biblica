@@ -19,6 +19,47 @@ export type ActivityStatus =
   | 'aprovado'
   | 'arquivado'
 
+// V2 — neutralidade denominacional e governança de conteúdo
+
+export type TheologicalLevel = 'essential' | 'interpretive' | 'denominational'
+
+export type EditorialRisk = 'low' | 'medium' | 'high'
+
+export type ReviewStatus =
+  | 'draft'
+  | 'biblical_review'
+  | 'pedagogical_review'
+  | 'pastoral_review'
+  | 'approved'
+  | 'rejected'
+  | 'archived'
+
+export interface ActivityAlternativeVersion {
+  id: string
+  label: string
+  description: string
+}
+
+export interface ActivityTheology {
+  level: TheologicalLevel
+  risk: EditorialRisk
+  denominationalTags: string[]
+  requiresPastoralApproval: boolean
+  doctrinalNotice?: string
+  adaptationInstructions?: string[]
+  alternativeVersions?: ActivityAlternativeVersion[]
+}
+
+export interface ActivityReview {
+  status: ReviewStatus
+  version: number
+  biblicalReviewer?: string
+  pedagogicalReviewer?: string
+  pastoralApprover?: string
+  reviewedAt?: string
+  notes?: string[]
+}
+
 export interface Activity {
   id: string
   title: string
@@ -47,6 +88,8 @@ export interface Activity {
   noMaterialsAlternative?: string
   tags: string[]
   status: ActivityStatus
+  theology?: ActivityTheology
+  review?: ActivityReview
 }
 
 export interface Category {

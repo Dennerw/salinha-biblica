@@ -1,42 +1,102 @@
-# Diretrizes Teológicas — Salinha Bíblica
+# Diretrizes Teológicas
 
-## Princípios fundamentais
+## Três níveis de conteúdo
 
-1. **A Bíblia é a fonte central** — todo conteúdo deve ter uma âncora bíblica clara
-2. **Jesus e o Evangelho no centro** — a mensagem deve apontar para Cristo
-3. **Linguagem adequada à idade** — crianças de 3 a 14 anos têm capacidades diferentes
-4. **Respeito à consciência local** — não impor interpretações denominacionais como consenso
+### 1. Essencial (`essential`)
 
-## Temas que requerem cuidado especial
+Temas centrais amplamente compartilhados entre igrejas evangélicas:
 
-Os temas abaixo devem ser **sinalizados nos `safetyNotes` ou evitados** no conteúdo geral, pois variam entre denominações evangélicas:
+- Deus como Criador
+- Vida, morte e ressurreição de Jesus
+- Amor a Deus e ao próximo
+- Graça, perdão e arrependimento
+- Oração e leitura da Bíblia
+- Honestidade, bondade, humildade e serviço
+- Fruto do Espírito (Gálatas 5:22-23)
+- Missões e anúncio do Evangelho
 
-- Batismo (modo, idade, significado)
-- Santa Ceia (frequência, significado)
-- Dons espirituais (cessacionismo vs. continuacionismo)
-- Eleição e livre-arbítrio
-- Escatologia (rap, milênio, arrebatamento)
-- Línguas e profecia
+Conteúdo essencial pode aparecer normalmente no catálogo, mas ainda exige revisão bíblica e pedagógica.
 
-Esses temas podem existir em categorias futuras específicas com aviso explícito de que devem ser revisados pela liderança local antes do uso.
+### 2. Interpretativo (`interpretive`)
 
-## O que nunca fazer
+Aplicações legítimas cuja ênfase ou explicação pode variar:
 
-- Usar medo, culpa ou constrangimento para obter respostas espirituais
-- Prometer que uma dinâmica substitui ensino bíblico, oração ou pastoreio
-- Forçar crianças a expor experiências íntimas diante do grupo
-- Apresentar tradição denominacional específica como verdade universal
-- Usar linguagem que exclua crianças de famílias não-cristãs presentes
-- Copiar textos de materiais católicos ou de outras tradições sem adaptação
+- Como Deus orienta pessoas
+- Formas de oração
+- Relação entre fé, obras e obediência
+- Santificação e crescimento cristão
+- Como aplicar promessas bíblicas
 
-## Segurança e bem-estar
+Use linguagem cuidadosa. Evite conclusões além do texto.
 
-- Atividades físicas devem listar `safetyNotes` com cuidados concretos
-- Nunca levantar fisicamente crianças sem orientação de segurança
-- Atividades com alimentos: adicionar nota sobre alergias alimentares
-- Dinâmicas de exposição emocional: sempre voluntário, nunca obrigatório
-- Roleplay e teatro: monitorar para que não haja bullying ou constrangimento
+### 3. Denominacional (`denominational`)
 
-## Sobre o conteúdo existente
+Temas com diferenças reais entre tradições evangélicas. Exigem aviso e aprovação local:
 
-As 40 dinâmicas do MVP foram escritas para uso geral entre evangélicos de diversas denominações. Elas evitam deliberadamente temas controversos listados acima. A categoria "Fruto do Espírito" menciona o Espírito Santo de forma que é consenso entre todas as tradições cristãs evangélicas.
+- Batismo (quem, quando, como)
+- Ceia do Senhor
+- Dons espirituais atuais (línguas, profecia, cura)
+- Predestinação e livre-arbítrio
+- Segurança da salvação
+- Governo e liderança da igreja
+- Ordenação e ministério
+- Sábado e domingo
+- Dízimos e prosperidade
+- Escatologia e arrebatamento
+- Usos e costumes
+
+---
+
+## Matriz de risco editorial
+
+| Nível | Descrição | Publicação |
+|---|---|---|
+| Baixo (`low`) | Tema essencial, linguagem direta, contexto bíblico claro | Revisão bíblica e pedagógica |
+| Médio (`medium`) | Aplicação interpretativa ou vocabulário com possíveis diferenças | Revisão bíblica reforçada |
+| Alto (`high`) | Tema denominacional ou sensível | Aprovação explícita da liderança local |
+
+### Tags que ativam risco alto automaticamente
+
+`batismo`, `ceia`, `dons-espirituais`, `linguas`, `profecia`, `cura`, `predestinacao`, `livre-arbitrio`, `seguranca-da-salvacao`, `governo-da-igreja`, `ordenacao`, `sabado`, `dizimos`, `prosperidade`, `escatologia`, `usos-e-costumes`
+
+---
+
+## Linguagem proibida
+
+- "Todos os cristãos verdadeiros acreditam que..."
+- "A Bíblia prova que toda igreja precisa..."
+- "Quem não faz isso não tem fé."
+- "Nossa igreja é a única correta."
+- "Deus sempre vai curar se você acreditar."
+- "Se algo ruim aconteceu, você não orou o suficiente."
+
+## Linguagem recomendada
+
+- "Muitas igrejas ensinam..."
+- "Alguns cristãos compreendem esta passagem..."
+- "Converse com a liderança da sua igreja sobre..."
+- "O texto bíblico mostra...; a aplicação deve respeitar o contexto."
+- "A criança pode participar sem precisar compartilhar algo pessoal."
+
+---
+
+## Regras de contexto bíblico
+
+Cada dinâmica deve informar:
+
+1. Referência bíblica principal
+2. Contexto resumido (quem fala, para quem, situação histórica)
+3. Verdade principal — diretamente sustentada pela passagem
+4. Limites da aplicação — o que a passagem não diz
+
+A revisão bíblica verifica:
+
+- A verdade principal decorre da passagem (não é texto-prova)
+- A aplicação é coerente com o contexto
+- A passagem não está sendo usada fora do sentido original
+
+---
+
+## Critérios de adaptação local
+
+Toda dinâmica denominacional deve incluir `doctrinalNotice` e `adaptationInstructions[]` com orientações para a liderança local decidir a abordagem antes de usar com as crianças.
